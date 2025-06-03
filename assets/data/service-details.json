@@ -1,0 +1,726 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Visiting Card",
+      "meta": {
+        "type": "Premium Service",
+        "since": "Since 2024",
+        "rating": "4.9/5 Rating"
+      },
+      "lead": "Empowering your brand with innovative strategies and seamless execution. We blend creativity and data-driven insights to elevate your market presence and connect meaningfully with your audience.",
+      "overview": {
+        "title": "Strategic Marketing Approach",
+        "paragraphs": [
+          "We develop tailored marketing strategies rooted in deep market understanding and customer insights to maximize your brand’s impact.",
+          "Our holistic approach combines creative innovation with proven methodologies to drive sustained growth and engagement."
+        ],
+        "image": "assets/img/services/services-7.webp"
+      },
+      "process": [
+        {
+          "title": "Discovery & Research",
+          "description": "Conducting in-depth market analysis and competitor research to clearly identify and understand your target audience."
+        },
+        {
+          "title": "Strategy Development",
+          "description": "Designing tailored marketing strategies aligned with your business goals to ensure measurable success."
+        }
+      ],
+      "benefits": [
+        {
+          "icon": "bi-graph-up",
+          "title": "Increased Brand Visibility",
+          "description": "Amplify your digital presence through focused and effective marketing campaigns."
+        },
+        {
+          "icon": "bi-people",
+          "title": "Higher Engagement Rates",
+          "description": "Foster meaningful audience interactions with relevant and compelling content."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "assets/img/services/services-2.webp",
+          "title": "Social Media Campaign",
+          "description": "Boosted engagement by 187% through targeted social media strategies"
+        },
+        {
+          "image": "assets/img/services/services-4.webp",
+          "title": "SEO Optimization",
+          "description": "Achieved #1 ranking for key search terms, driving increased organic traffic"
+        }
+      ],
+      "sidebar": {
+        "actionCard": {
+          "title": "Ready to Boost Your Online Presence?",
+          "description": "Get a complimentary consultation with our digital marketing experts and discover tailored solutions to accelerate your business growth.",
+          "buttonText": "Schedule Consultation",
+          "guarantee": "100% Satisfaction Guarantee",
+          "guaranteeIcon": "bi-shield-check"
+        },
+        "featuresList": {
+          "title": "What We Offer",
+          "features": [
+            {
+              "icon": "bi-megaphone",
+              "title": "Glass Card",
+              "description": "Establish a strategic presence across all key platforms."
+            },
+            {
+              "icon": "bi-search",
+              "title": "Matt Card",
+              "description": "Enhance your search engine rankings effectively."
+            },
+            {
+              "icon": "bi-newspaper",
+              "title": "Synthetic (Non-Terrable)",
+              "description": "Deliver engaging, conversion-focused content."
+            },
+            {
+              "icon": "bi-envelope-paper",
+              "title": "White Linen Texture",
+              "description": "Track performance with comprehensive analytics."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Needle Point (Dotted)",
+              "description": "Monitor and optimize marketing effectiveness."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Metalic (Perfum Board)",
+              "description": "Implement targeted email marketing campaigns."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Customize Cards",
+              "description": "Tailor card designs to meet your unique business needs."
+            }
+          ]
+        }
+      }
+    },
+     {
+      "id": 2,
+      "title": "Wedding Cards",
+      "meta": {
+        "type": "Premium Service",
+        "since": "Since 2024",
+        "rating": "4.9/5 Rating"
+      },
+      "lead": "Create unforgettable memories with our exquisite wedding cards designed to reflect your unique love story. Crafted with elegance and attention to detail, our cards set the perfect tone for your special day.",
+      "overview": {
+        "title": "Strategic Marketing Approach",
+        "paragraphs": [
+          "We conduct thorough market research to understand trends and customer preferences specific to wedding invitations.",
+          "Our team crafts tailored marketing strategies ensuring your wedding cards reach the right audience with impactful messaging."
+        ],
+        "image": "assets/img/services/services-7.webp"
+      },
+      "process": [
+        {
+          "title": "Discovery & Research",
+          "description": "Detailed analysis of market demands and competitor offerings to identify your target customers."
+        },
+        {
+          "title": "Strategy Development",
+          "description": "Formulating customized marketing plans aligned with your wedding card designs and business goals."
+        }
+      ],
+      "benefits": [
+        {
+          "icon": "bi-graph-up",
+          "title": "Increased Brand Visibility",
+          "description": "Expand your reach with targeted promotional efforts in the wedding niche."
+        },
+        {
+          "icon": "bi-people",
+          "title": "Higher Engagement Rates",
+          "description": "Connect meaningfully with couples through emotionally resonant designs and content."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "assets/img/services/services-2.webp",
+          "title": "Social Media Campaign",
+          "description": "Increased engagement by 187%"
+        },
+        {
+          "image": "assets/img/services/services-4.webp",
+          "title": "SEO Optimization",
+          "description": "Ranked #1 for target keywords"
+        }
+      ],
+      "sidebar": {
+        "actionCard": {
+          "title": "Ready to Boost Your Online Presence?",
+          "description": "Get a free consultation with our digital marketing experts and discover how we can help grow your business.",
+          "buttonText": "Schedule Consultation",
+          "guarantee": "100% Satisfaction Guarantee",
+          "guaranteeIcon": "bi-shield-check"
+        },
+        "featuresList": {
+          "title": "What We Offer",
+          "features": [
+            {
+              "icon": "bi-megaphone",
+              "title": "Family Cards",
+              "description": "Strategic presence across all relevant platforms."
+            },
+            {
+              "icon": "bi-search",
+              "title": "Friendship Cards",
+              "description": "Engaging designs that convert interest into orders."
+            },
+            {
+              "icon": "bi-newspaper",
+              "title": "Creative Cards",
+              "description": "Engaging content that converts visitors"
+            },
+            {
+              "icon": "bi-envelope-paper",
+              "title": "Innovative Cards",
+              "description": "Efficient solutions for quick launches."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Readymade Cards",
+              "description": "Leverage social platforms for viral marketing."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "WhatsApp Promo",
+              "description": "Personalized designs tailored to your needs."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Customize Cards",
+              "description": "Comprehensive performance tracking"
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Transperant Cards",
+              "description": "Unique styles to make your invitations stand out."
+            }
+          ]
+        }
+      }
+    },
+     {
+      "id": 3,
+      "title": "Calendars",
+      "meta": {
+        "type": "Premium Service",
+        "since": "Since 2024",
+        "rating": "4.9/5 Rating"
+      },
+      "lead": "Enhance your brand’s presence year-round with our expertly designed calendars. Crafted for both aesthetics and functionality, our calendars keep your business top of mind with clients and partners.",
+      "overview": {
+        "title": "Strategic Marketing Approach",
+        "paragraphs": [
+          "Comprehensive market research to identify calendar trends and customer preferences.",
+          "Tailored marketing strategies to maximize your calendar campaign’s impact."
+        ],
+        "image": "assets/img/services/services-7.webp"
+      },
+      "process": [
+        {
+          "title": "Discovery & Research",
+          "description": "In-depth analysis of target audience and competitors to shape effective calendar marketing."
+        },
+        {
+          "title": "Strategy Development",
+          "description": "Custom marketing plans aligned with your calendar types and business goals."
+        }
+      ],
+      "benefits": [
+        {
+          "icon": "bi-graph-up",
+          "title": "Increased Brand Visibility",
+          "description": "Amplify your reach with targeted promotions throughout the year."
+        },
+        {
+          "icon": "bi-people",
+          "title": "Higher Engagement Rates",
+          "description": "Build lasting customer connections with thoughtful, useful designs."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "assets/img/services/services-2.webp",
+          "title": "Social Media Campaign",
+          "description": "Increased engagement by 187%"
+        },
+        {
+          "image": "assets/img/services/services-4.webp",
+          "title": "SEO Optimization",
+          "description": "Ranked #1 for target keywords"
+        }
+      ],
+      "sidebar": {
+        "actionCard": {
+          "title": "Ready to Boost Your Online Presence?",
+          "description": "Get a free consultation with our digital marketing experts and discover how we can help grow your business.",
+          "buttonText": "Schedule Consultation",
+          "guarantee": "100% Satisfaction Guarantee",
+          "guaranteeIcon": "bi-shield-check"
+        },
+        "featuresList": {
+          "title": "What We Offer",
+          "features": [
+            {
+              "icon": "bi-megaphone",
+              "title": "Table Top Calendars",
+              "description": "Strategic placement for maximum visibility."
+            },
+            {
+              "icon": "bi-search",
+              "title": "Monthly Calendars",
+              "description": "Drive continuous engagement month-by-month."
+            },
+            {
+              "icon": "bi-newspaper",
+              "title": "Customize Calenders",
+              "description": "Personalized designs that resonate with your audience."
+            },
+            {
+              "icon": "bi-envelope-paper",
+              "title": "Wedding Calenders",
+              "description": "Elegant, themed calendars perfect for special occasions."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Creative Calenders",
+              "description": "Innovative designs that stand out."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "ReadyMade Calenders",
+              "description": "Convenient, quick-to-launch solutions."
+            }
+          ]
+        }
+      }
+    },
+      {
+      "id": 4,
+      "title": "Brochures & Stationers",
+      "meta": {
+        "type": "Premium Service",
+        "since": "Since 2024",
+        "rating": "4.9/5 Rating"
+      },
+      "lead": "Enhance your corporate identity with high-quality brochures and stationery. We help you communicate your brand message effectively through custom-designed print materials.",
+      "overview": {
+        "title": "Strategic Marketing Approach",
+        "paragraphs": [
+          "Extensive market research to understand your audience and competitors",
+          "Tailored marketing strategies to ensure your materials drive engagement and conversions."
+        ],
+        "image": "assets/img/services/services-7.webp"
+      },
+      "process": [
+        {
+          "title": "Discovery & Research",
+          "description": "Comprehensive analysis to align print materials with your brand goals."
+        },
+        {
+          "title": "Strategy Development",
+          "description": "Creation of focused marketing plans tailored to your print campaigns."
+        }
+      ],
+      "benefits": [
+        {
+          "icon": "bi-graph-up",
+          "title": "Increased Brand Visibility",
+          "description": "Expand your reach with visually compelling, targeted print materials."
+        },
+        {
+          "icon": "bi-people",
+          "title": "Higher Engagement Rates",
+          "description": "Build stronger connections through professional and relevant content"
+        }
+      ],
+      "gallery": [
+        {
+          "image": "assets/img/services/services-2.webp",
+          "title": "Social Media Campaign",
+          "description": "Increased engagement by 187%"
+        },
+        {
+          "image": "assets/img/services/services-4.webp",
+          "title": "SEO Optimization",
+          "description": "Ranked #1 for target keywords"
+        }
+      ],
+      "sidebar": {
+        "actionCard": {
+          "title": "Ready to Boost Your Online Presence?",
+          "description": "Get a free consultation with our digital marketing experts and discover how we can help grow your business.",
+          "buttonText": "Schedule Consultation",
+          "guarantee": "100% Satisfaction Guarantee",
+          "guaranteeIcon": "bi-shield-check"
+        },
+        "featuresList": {
+          "title": "What We Offer",
+          "features": [
+            {
+              "icon": "bi-megaphone",
+              "title": "Pamphlets",
+              "description": "Strategic presence across relevant platforms."
+            },
+            {
+              "icon": "bi-search",
+              "title": "Catalogues",
+              "description": "Improve visibility and rankings."
+            },
+            {
+              "icon": "bi-newspaper",
+              "title": "HandBill",
+              "description": "Engaging print content that drives action."
+            },
+            {
+              "icon": "bi-envelope-paper",
+              "title": "Company Profiles",
+              "description": "Targeted marketing materials."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "WhatsApp Promotion",
+              "description": "Effective messaging on popular platforms."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Envelops",
+              "description": "Customized branding on all mail."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Letter Head",
+              "description": "Professional corporate identity."
+            },
+             {
+              "icon": "bi-graph-up-arrow",
+              "title": "Bill Book",
+              "description": "Track and manage transactions professionally."
+            },
+             {
+              "icon": "bi-graph-up-arrow",
+              "title": "Vouchers",
+              "description": "Drive sales and promotions."
+            },
+             {
+              "icon": "bi-graph-up-arrow",
+              "title": "Stickers",
+              "description": "Creative branding tools."
+            }
+          ]
+        }
+      }
+    },
+     {
+      "id": 5,
+      "title": "Colour Prints",
+      "meta": {
+        "type": "Premium Service",
+        "since": "Since 2024",
+        "rating": "4.9/5 Rating"
+      },
+      "lead": "Deliver vibrant, high-resolution color prints that make your brand pop and captivate your audience, whether for marketing, education, or business needs.",
+      "overview": {
+        "title": "Strategic Marketing Approach",
+        "paragraphs": [
+          "In-depth audience and competitor research to align your content.",
+          "Development of strategic campaigns for measurable results."
+        ],
+        "image": "assets/img/services/services-7.webp"
+      },
+      "process": [
+        {
+          "title": "Discovery & Research",
+          "description": "Understand your business needs and target audience to define the right visual content."
+        },
+        {
+          "title": "Strategy Development",
+          "description": "Crafting tailored marketing approaches that integrate print with digital outreach."
+        }
+      ],
+      "benefits": [
+        {
+          "icon": "bi-graph-up",
+          "title": "Increased Brand Visibility",
+          "description": "Catch your audience’s eye with bold, professionally printed visuals."
+        },
+        {
+          "icon": "bi-people",
+          "title": "Higher Engagement Rates",
+          "description": "Leave a lasting impression with standout color print materials."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "assets/img/services/services-2.webp",
+          "title": "Social Media Campaign",
+          "description": "Increased engagement by 187%"
+        },
+        {
+          "image": "assets/img/services/services-4.webp",
+          "title": "SEO Optimization",
+          "description": "Ranked #1 for target keywords"
+        }
+      ],
+      "sidebar": {
+        "actionCard": {
+          "title": "Ready to Boost Your Online Presence?",
+          "description": "Get a free consultation with our digital marketing experts and discover how we can help grow your business.",
+          "buttonText": "Schedule Consultation",
+          "guarantee": "100% Satisfaction Guarantee",
+          "guaranteeIcon": "bi-shield-check"
+        },
+        "featuresList": {
+          "title": "What We Offer",
+          "features": [
+            {
+              "icon": "bi-megaphone",
+              "title": "Poster",
+              "description": "Eye-catching visuals for events, promotions, and advertising."
+            },
+            {
+              "icon": "bi-search",
+              "title": "Projects",
+              "description": "Academic or business-related documents in vibrant print quality."
+            },
+            {
+              "icon": "bi-newspaper",
+              "title": "Business Cards",
+              "description": "Professionally designed cards to leave a strong impression."
+            },
+            {
+              "icon": "bi-envelope-paper",
+              "title": "(1 Hour Delivery)",
+              "description": "Fast turnaround for urgent printing needs."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Certificate",
+              "description": "High-quality prints for awards, training, or achievements."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Advertisements",
+              "description": "Engaging ad prints that stand out in any medium."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Books",
+              "description": "Professional-grade color printing for booklets or presentations."
+            }
+          ]
+        }
+      }
+    },
+     {
+      "id": 6,
+      "title": "All types of Stickers",
+      "meta": {
+        "type": "Premium Service",
+        "since": "Since 2024",
+        "rating": "4.9/5 Rating"
+      },
+      "lead": "Bring your brand to life with custom-designed stickers that stick in your customers’ minds — perfect for products, packaging, promotions, and beyond.",
+      "overview": {
+        "title": "Strategic Marketing Approach",
+        "paragraphs": [
+          "Custom sticker designs backed by audience and market research.",
+          "Integrated strategies that align with your brand’s objectives"
+        ],
+        "image": "assets/img/services/services-7.webp"
+      },
+      "process": [
+        {
+          "title": "Discovery & Research",
+          "description": "We analyze your niche, competitors, and audience preferences to inform the design and distribution."
+        },
+        {
+          "title": "Strategy Development",
+          "description": "We develop sticker concepts that complement your larger marketing goals."
+        }
+      ],
+      "benefits": [
+        {
+          "icon": "bi-graph-up",
+          "title": "Increased Brand Visibility",
+          "description": "Stand out on shelves, packages, and products with vibrant, sticky branding."
+        },
+        {
+          "icon": "bi-people",
+          "title": "Higher Engagement Rates",
+          "description": "Creative stickers that spark interaction and brand loyalty."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "assets/img/services/services-2.webp",
+          "title": "Social Media Campaign",
+          "description": "Increased engagement by 187%"
+        },
+        {
+          "image": "assets/img/services/services-4.webp",
+          "title": "SEO Optimization",
+          "description": "Ranked #1 for target keywords"
+        }
+      ],
+      "sidebar": {
+        "actionCard": {
+          "title": "Ready to Boost Your Online Presence?",
+          "description": "Get a free consultation with our digital marketing experts and discover how we can help grow your business.",
+          "buttonText": "Schedule Consultation",
+          "guarantee": "100% Satisfaction Guarantee",
+          "guaranteeIcon": "bi-shield-check"
+        },
+        "featuresList": {
+          "title": "What We Offer",
+          "features": [
+            {
+              "icon": "bi-megaphone",
+              "title": "Paper Sticker",
+              "description": "Versatile and affordable for everyday branding."
+            },
+            {
+              "icon": "bi-search",
+              "title": "PVC Stickers",
+              "description": "Durable, waterproof options for outdoor or rugged use."
+            },
+            {
+              "icon": "bi-newspaper",
+              "title": "Transperant Stickers",
+              "description": "Sleek, subtle branding for glass, packaging, or tech."
+            },
+            {
+              "icon": "bi-envelope-paper",
+              "title": "Labels",
+              "description": "Professional labeling for bottles, products, or logistics."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Bottle Sticker",
+              "description": "Custom-fit designs for beverage or cosmetics packaging."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Product Stickers",
+              "description": "Eye-catching labels to boost product appeal."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Advertisement Stickers",
+              "description": "Promotional pieces for events, offers, and campaigns."
+            }
+          ]
+        }
+      }
+    },
+     {
+      "id": 7,
+      "title": "Special Boards",
+      "meta": {
+        "type": "Premium Service",
+        "since": "Since 2024",
+        "rating": "4.9/5 Rating"
+      },
+      "lead": "Elevate your visual communication with our custom special boards — ideal for presentations, events, promotions, and branded displays.",
+      "overview": {
+        "title": "Strategic Marketing Approach",
+        "paragraphs": [
+          "We begin by understanding your target audience and competitors to determine the best board format and finish.",
+          "Tailored messaging and layout strategies to maximize brand impact and viewer retention."
+        ],
+        "image": "assets/img/services/services-7.webp"
+      },
+      "process": [
+        {
+          "title": "Discovery & Research",
+          "description": "Thorough market analysis and competitor research to define your target audience."
+        },
+        {
+          "title": "Strategy Development",
+          "description": "Creating comprehensive marketing strategies tailored to your objectives."
+        }
+      ],
+      "benefits": [
+        {
+          "icon": "bi-graph-up",
+          "title": "Increased Brand Visibility",
+          "description": "Catch eyes instantly at events, storefronts, and trade shows."
+        },
+        {
+          "icon": "bi-people",
+          "title": "Higher Engagement Rates",
+          "description": "Professionally designed boards that resonate with your audience."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "assets/img/services/services-2.webp",
+          "title": "Social Media Campaign",
+          "description": "Increased engagement by 187%"
+        },
+        {
+          "image": "assets/img/services/services-4.webp",
+          "title": "SEO Optimization",
+          "description": "Ranked #1 for target keywords"
+        }
+      ],
+      "sidebar": {
+        "actionCard": {
+          "title": "Ready to Boost Your Online Presence?",
+          "description": "Get a free consultation with our digital marketing experts and discover how we can help grow your business.",
+          "buttonText": "Schedule Consultation",
+          "guarantee": "100% Satisfaction Guarantee",
+          "guaranteeIcon": "bi-shield-check"
+        },
+        "featuresList": {
+          "title": "What We Offer",
+          "features": [
+            {
+              "icon": "bi-megaphone",
+              "title": "White Linen Texture",
+              "description": "Elegant surface for upscale branding."
+            },
+            {
+              "icon": "bi-search",
+              "title": "Needle point",
+              "description": "Fine textured boards for a sophisticated finish."
+            },
+            {
+              "icon": "bi-newspaper",
+              "title": "Metalic",
+              "description": "Glossy, attention-grabbing boards for modern appeal."
+            },
+            {
+              "icon": "bi-envelope-paper",
+              "title": "Synthetic",
+              "description": "Durable, tear-resistant options for long-term use."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Thick Synthetic",
+              "description": "Extra-rigid boards ideal for outdoor and heavy-duty applications."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Customize Boards",
+              "description": "Tailor-made formats and finishes to fit your brand identity."
+            },
+            {
+              "icon": "bi-graph-up-arrow",
+              "title": "Papers",
+              "description": "Lightweight and cost-effective for mass presentations or displays."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
