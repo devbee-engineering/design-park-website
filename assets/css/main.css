@@ -1222,6 +1222,11 @@ section,
   font-size: 0.85rem;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
+@media (min-width: 1905px) and (min-height: 953px){
+ .about-image {
+   width: 75%;
+ }
+}
 
 /*--------------------------------------------------------------
 # Services Section
