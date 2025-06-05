@@ -1964,6 +1964,11 @@ section,
   color: var(--contrast-color);
 }
 
+.custom-portfolio-container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 @media (max-width: 768px) {
   .portfolio .portfolio-filters {
     gap: 10px;
