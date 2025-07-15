@@ -1222,6 +1222,11 @@ section,
   font-size: 0.85rem;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
+@media (min-width: 1905px) and (min-height: 953px){
+ .about-image {
+   width: 75%;
+ }
+}
 
 /*--------------------------------------------------------------
 # Services Section
@@ -1944,6 +1949,7 @@ section,
   transition: all 0.3s ease;
 }
 
+
 .portfolio .portfolio-filters li i {
   font-size: 1.1em;
   transition: transform 0.3s ease;
@@ -2102,6 +2108,17 @@ section,
 
 .portfolio .portfolio-item .entry-image {
   aspect-ratio: 4/3;
+}
+
+@media (min-width: 1905px) and (min-height: 953px) {
+ .custom-portfolio-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+  .portfolio-item {
+  max-width: 450px;
+}
 }
 
 @media (min-width: 1200px) {
