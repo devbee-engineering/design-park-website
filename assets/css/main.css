@@ -3789,7 +3789,64 @@ section,
 
 /*--------------------------------------------------------------
 # Starter Section Section
---------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+
+
+/* Toolbar mimic */
+.product-toolbar .btn.btn-light.active { border-color: #ced4da; }
+.product-toolbar .form-select { min-width: 80px; }
+
+/* List container */
+.product-list {
+  border-top: 1px solid #e9ecef;
+}
+
+/* Each item */
+.product-item {
+  padding: 18px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* Thumbnail */
+.product-thumb {
+  width: 100%;
+  height: 155px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Title + attributes */
+.product-title { font-weight: 600; }
+
+.product-attrs {
+  line-height: 1.45;
+  font-size: 0.95rem;
+}
+
+.gst-badge {
+  color: #d62828;                 /* red like screenshot */
+  font-weight: 700;
+}
+
+.product-attrs .sep {
+  color: #adb5bd;
+  margin: 0 6px;
+}
+
+/* Price + CTA */
+.product-price {
+  color: #e67700;                 /* orange tone */
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+@media (max-width: 767.98px) {
+  .product-thumb { height: 200px; }
+  .product-price { font-size: 1.1rem; }
+}
+
+/* Optional: tighter spacing on very large screens */
+@media (min-width: 1200px) {
+  .product-thumb { height: 170px; }
 }
