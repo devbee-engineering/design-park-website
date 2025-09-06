@@ -97,8 +97,84 @@
               "title": "Customize Cards",
               "description": "Tailor card designs to meet your unique business needs."
             }
-          ]
-        }
+              ],
+              "productsListing": {
+              "toolbar": {
+                "totalLabel": "5 Item(s)",
+                "showLabel": "SHOW:",
+                "pageSizeOptions": [20, 50, 100],
+                "defaultPageSize": 20,
+                "defaultView": "list"
+              },
+              "whatsAppDefaultNumber": "18039523845",
+              "items": [
+                {
+                  "id": "gloss-single-500",
+                  "title": "Gloss Single Side 500",
+                  "image": "assets/img/services/services-2.webp",
+                  "pricing": { "currency": "Rs", "amount": 350, "display": "Rs 350.00", "gstInclusive": true },
+                  "specs": {
+                    "qty": 500,
+                    "substrate": "Art Board (300 GSM)",
+                    "printing": "4C+0",
+                    "printingLabel": "Single Side Printing",
+                    "lamination": "Single Side Gloss Lamination",
+                    "fileUploadSize": "90mm × 53mm",
+                    "delivery": "1 to 2 Business Days"
+                  },
+                  "actions": { "learnMoreUrl": "#", "cartEnabled": true, "whatsAppNumber": null }
+                },
+                {
+                  "id": "gloss-single-1000",
+                  "title": "Gloss Single Side 1000",
+                  "image": "assets/img/services/services-4.webp",
+                  "pricing": { "currency": "Rs", "amount": 450, "display": "Rs 450.00", "gstInclusive": true },
+                  "specs": {
+                    "qty": 1000,
+                    "substrate": "Art Board (300 GSM)",
+                    "printing": "4C+0",
+                    "printingLabel": "Single Side Printing",
+                    "lamination": "Single Side Gloss Lamination",
+                    "fileUploadSize": "90mm × 53mm",
+                    "delivery": "1 to 2 Business Days"
+                  },
+                  "actions": { "learnMoreUrl": "#", "cartEnabled": true, "whatsAppNumber": null }
+                },
+                {
+                  "id": "gloss-fb-500",
+                  "title": "Gloss Front & Back 500",
+                  "image": "assets/img/services/services-10.webp",
+                  "pricing": { "currency": "Rs", "amount": 450, "display": "Rs 450.00", "gstInclusive": true },
+                  "specs": {
+                    "qty": 500,
+                    "substrate": "Art Board (300 GSM)",
+                    "printing": "4C+4C",
+                    "printingLabel": "Printing Front & Back",
+                    "lamination": "Gloss Lamination (2 Side)",
+                    "fileUploadSize": "90mm × 53mm",
+                    "delivery": "1 to 2 Business Days"
+                  },
+                  "actions": { "learnMoreUrl": "#", "cartEnabled": true, "whatsAppNumber": null }
+                },
+                {
+                  "id": "gloss-fb-1000",
+                  "title": "Gloss Front & Back 1000",
+                  "image": "assets/img/services/services-7.webp",
+                  "pricing": { "currency": "Rs", "amount": 550, "display": "Rs 550.00", "gstInclusive": true },
+                  "specs": {
+                    "qty": 1000,
+                    "substrate": "Art Board (300 GSM)",
+                    "printing": "4C+4C",
+                    "printingLabel": "Printing Front & Back",
+                    "lamination": "Gloss Lamination (2 Side)",
+                    "fileUploadSize": "90mm × 53mm",
+                    "delivery": "1 to 2 Business Days"
+                  },
+                  "actions": { "learnMoreUrl": "#", "cartEnabled": true, "whatsAppNumber": null }
+                }
+              ]
+            }
+          }
       }
     },
      {
