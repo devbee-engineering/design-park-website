@@ -512,126 +512,398 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- === PRODUCTS LISTING RENDERER (drop-in) === -->
   <script>
-    function getQueryParam(param) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(param);
+  /* helpers */
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+  const esc = (v) => String(v ?? "");
+
+  /* === RIGHT COLUMN: PRODUCTS LIST (from productsListing) === */
+  function renderProductsToolbar(listing) {
+    const bar = document.querySelector(".product-toolbar");
+    if (!bar || !listing?.toolbar) return;
+
+    const { totalLabel, pageSizeOptions = [20, 50, 100], defaultPageSize = 20, defaultView = "list" } = listing.toolbar;
+
+    const totalSpan = bar.querySelector(".text-muted.small");
+    if (totalSpan) totalSpan.textContent = esc(totalLabel);
+
+    const select = bar.querySelector("select");
+    if (select) {
+      select.innerHTML = "";
+      pageSizeOptions.forEach((n) => {
+        const opt = document.createElement("option");
+        opt.value = String(n);
+        opt.textContent = String(n);
+        if (n === defaultPageSize) opt.selected = true;
+        select.appendChild(opt);
+      });
     }
 
-    fetch('assets/data/service-details.json')
-      .then(res => res.json())
-      .then(json => {
-        const services = json.services || [];
-        let service = services[0]; // default to first service
+    const [listBtn, gridBtn] = $$(".view-switch button", bar);
+    if (listBtn && gridBtn) {
+      listBtn.classList.toggle("active", defaultView === "list");
+      gridBtn.classList.toggle("active", defaultView === "grid");
+      listBtn.addEventListener("click", () => {
+        listBtn.classList.add("active");
+        gridBtn.classList.remove("active");
+        document.body.classList.remove("grid-view");
+      });
+      gridBtn.addEventListener("click", () => {
+        gridBtn.classList.add("active");
+        listBtn.classList.remove("active");
+        document.body.classList.add("grid-view");
+      });
+    }
+  }
 
-        const id = getQueryParam('id');
-        console.log(`Service ID from URL: ${id}`);
-        
-        if (id) {
-          const idx = parseInt(id, 10);
-          if (!isNaN(idx) && idx >= 0 && idx < services.length) {
-            service = services[idx];
+  function productCardHTML(p, waDefault) {
+    const sep = `<span class="sep">|</span>`;
+    const gst = p.pricing?.gstInclusive ? `<span class="gst-badge">GST Inclusive</span>` : "";
+    const printingChunk = p.specs?.printing ? `${esc(p.specs.printing)} ${esc(p.specs.printingLabel)}` : esc(p.specs.printingLabel);
+    const price = esc(p.pricing?.display ?? "");
+    const waNumber = p.actions?.whatsAppNumber || waDefault;
+
+    const cartBtn = p.actions?.cartEnabled
+      ? `<button class="btn btn-outline-secondary btn-sm me-2 d-none d-md-inline-flex" aria-label="Add to cart"><i class="bi bi-basket2 me-1"></i></button>`
+      : "";
+
+    const waBtn = waNumber
+      ? `<a href="https://wa.me/${esc(waNumber)}" target="_blank" rel="noopener" class="btn btn-success btn-sm"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a>`
+      : "";
+
+    const learnMore = p.actions?.learnMoreUrl ? `<a href="${esc(p.actions.learnMoreUrl)}" class="small text-decoration-underline">Learn More</a>` : "";
+
+    return `
+    <div class="product-item" data-id="${esc(p.id)}">
+      <div class="row g-3 align-items-center">
+        <div class="col-12 col-md-3 col-lg-3">
+          <a href="#"><img src="${esc(p.image)}" class="img-fluid product-thumb" alt="${esc(p.title)}"></a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <h5 class="mb-2 product-title">${esc(p.title)}</h5>
+          <p class="mb-1 product-attrs">
+            ${gst} ${sep}
+            <strong>Qty:</strong> ${esc(p.specs.qty)} ${sep}
+            ${esc(p.specs.substrate)} ${sep}
+            ${printingChunk} ${sep}
+            ${esc(p.specs.lamination)} ${sep}
+            File Upload Size – ${esc(p.specs.fileUploadSize)}
+          </p>
+          <p class="mb-1 text-muted small"><strong>Delivery :</strong> ${esc(p.specs.delivery)}</p>
+          ${learnMore}
+        </div>
+        <div class="col-12 col-md-3 col-lg-3">
+          <div class="d-flex d-md-block justify-content-between align-items-center h-100">
+            <div class="text-end text-md-end"><div class="product-price">${price}</div></div>
+            <div class="mt-0 mt-md-2 text-end">
+              ${cartBtn}
+              ${waBtn}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  function renderProductsList(listing) {
+    const host = document.querySelector(".product-list");
+    if (!host || !listing) return;
+
+    const items = (listing.items || []).filter((x) => !x.hidden);
+    const select = document.querySelector(".product-toolbar select");
+    const pageSize = Number(select?.value || listing.toolbar?.defaultPageSize || items.length);
+    const toRender = items.slice(0, Math.max(1, pageSize));
+
+    host.innerHTML = toRender.map((p) => productCardHTML(p, listing.whatsAppDefaultNumber)).join("");
+
+    // (Re)bind select change
+    if (select && !select._bound) {
+      select._bound = true;
+      select.addEventListener("change", () => renderProductsList(listing));
+    }
+  }
+
+  /* === CALL THIS INSIDE YOUR EXISTING fetch().then(json => { ... }) === */
+  function mountProductsFromJSON(json) {
+    const listing = json.productsListing;
+    if (!listing) return;
+    renderProductsToolbar(listing);
+    renderProductsList(listing);
+  }
+  </script>
+  <script>
+(function () {
+  const $$ = (sel, root = document) => root.querySelector(sel);
+  const $$$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+  const esc = (s) => String(s ?? "");
+
+  const telHref = (digits) => `https://wa.me/${digits}`;
+  const money = (display) => esc(display);
+
+  function renderSidebarFeatures(sidebar) {
+    const wrap = $$(".service-features-list");
+    if (!wrap) return;
+
+    const titleEl = wrap.querySelector("h4") || document.createElement("h4");
+    titleEl.textContent = sidebar.featuresTitle || "What We Offer";
+
+    const ul = wrap.querySelector("ul") || document.createElement("ul");
+    ul.innerHTML = "";
+    (sidebar.features || []).forEach((f) => {
+      const li = document.createElement("li");
+      li.innerHTML = `
+        <i class="bi ${esc(f.icon)}"></i>
+        <div>
+          <h5>${esc(f.title)}</h5>
+          <p>${esc(f.description)}</p>
+        </div>
+      `;
+      ul.appendChild(li);
+    });
+
+    if (!wrap.contains(titleEl)) wrap.prepend(titleEl);
+    if (!wrap.contains(ul)) wrap.appendChild(ul);
+  }
+
+  function renderSidebarContact(sidebar) {
+    const wrap = $$(".contact-info");
+    if (!wrap) return;
+
+    const title = wrap.querySelector("h4") || document.createElement("h4");
+    title.textContent = sidebar.contactTitle || "Have Questions?";
+
+    // Clear existing contact-method blocks
+    $$$(".contact-method", wrap).forEach((n) => n.remove());
+
+    // Phone
+    const phoneDiv = document.createElement("div");
+    phoneDiv.className = "contact-method";
+    phoneDiv.innerHTML = `
+      <i class="bi bi-telephone-fill"></i>
+      <div>
+        <span>${esc(sidebar.contact.phoneLabel)}</span>
+        <p><a href="tel:${esc(sidebar.contact.phoneLink)}">${esc(sidebar.contact.phoneDisplay)}</a></p>
+      </div>
+    `;
+
+    // Email
+    const emailDiv = document.createElement("div");
+    emailDiv.className = "contact-method";
+    emailDiv.innerHTML = `
+      <i class="bi bi-envelope-fill"></i>
+      <div>
+        <span>${esc(sidebar.contact.emailLabel)}</span>
+        <p><a href="mailto:${esc(sidebar.contact.emailLink)}">${esc(sidebar.contact.emailDisplay)}</a></p>
+      </div>
+    `;
+
+    if (!wrap.contains(title)) wrap.prepend(title);
+    wrap.appendChild(phoneDiv);
+    wrap.appendChild(emailDiv);
+  }
+
+  function renderToolbar(toolbar) {
+    const bar = $$(".product-toolbar");
+    if (!bar) return;
+
+    // Total label
+    const totalSpan = bar.querySelector(".text-muted.small");
+    if (totalSpan) totalSpan.textContent = toolbar.totalLabel || "";
+
+    // SHOW: select
+    const select = bar.querySelector("select");
+    if (select) {
+      select.innerHTML = "";
+      (toolbar.pageSizeOptions || [20, 50, 100]).forEach((n) => {
+        const opt = document.createElement("option");
+        opt.value = String(n);
+        opt.textContent = String(n);
+        if (String(n) === String(toolbar.defaultPageSize)) opt.selected = true;
+        select.appendChild(opt);
+      });
+    }
+
+    // View buttons (optional)
+    const viewBtns = $$(".view-switch", bar);
+    if (viewBtns) {
+      const [listBtn, gridBtn] = $$$("button", viewBtns);
+      if (listBtn && gridBtn) {
+        listBtn.classList.toggle("active", (toolbar.defaultView || "list") === "list");
+        gridBtn.classList.toggle("active", (toolbar.defaultView || "list") === "grid");
+      }
+    }
+  }
+
+  function productCard(p) {
+    const gstBadge = p.pricing.gstInclusive ? `<span class="gst-badge">GST Inclusive</span>` : "";
+    const sep = `<span class="sep">|</span>`;
+    const learnMore = p.actions.learnMoreUrl ? `<a href="${esc(p.actions.learnMoreUrl)}" class="small text-decoration-underline">Learn More</a>` : "";
+    const cartBtn = p.actions.cartEnabled
+      ? `<button class="btn btn-outline-secondary btn-sm me-2 d-none d-md-inline-flex" aria-label="Add to cart"><i class="bi bi-basket2 me-1"></i></button>`
+      : "";
+
+    const wa = p.actions.whatsAppNumber
+      ? `<a href="${telHref(p.actions.whatsAppNumber)}" target="_blank" rel="noopener" class="btn btn-success btn-sm"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a>`
+      : "";
+
+    // Single vs double column spec text — matches screenshot exactly
+    const printingChunk = p.specs.printing
+      ? `${esc(p.specs.printing)} ${esc(p.specs.printingLabel)}`
+      : esc(p.specs.printingLabel);
+
+    return `
+      <div class="product-item" data-product-id="${esc(p.id)}">
+        <div class="row g-3 align-items-center">
+          <div class="col-12 col-md-3 col-lg-3">
+            <a href="#"><img src="${esc(p.image)}" class="img-fluid product-thumb" alt="${esc(p.title)}"></a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <h5 class="mb-2 product-title">${esc(p.title)}</h5>
+            <p class="mb-1 product-attrs">
+              ${gstBadge}
+              ${sep}
+              <strong>Qty:</strong> ${esc(p.specs.qty)}
+              ${sep}
+              ${esc(p.specs.substrate)}
+              ${sep}
+              ${printingChunk}
+              ${sep}
+              ${esc(p.specs.lamination)}
+              ${sep}
+              File Upload Size – ${esc(p.specs.fileUploadSize)}
+            </p>
+            <p class="mb-1 text-muted small"><strong>Delivery :</strong> ${esc(p.specs.delivery)}</p>
+            ${learnMore}
+          </div>
+          <div class="col-12 col-md-3 col-lg-3">
+            <div class="d-flex d-md-block justify-content-between align-items-center h-100">
+              <div class="text-end text-md-end">
+                <div class="product-price">${money(p.pricing.display)}</div>
+              </div>
+              <div class="mt-0 mt-md-2 text-end">
+                ${cartBtn}
+                ${wa}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderProducts(products, pageSize) {
+    const list = $$(".product-list");
+    if (!list) return;
+
+    const visible = products.filter((p) => !p.hidden);
+    const limit = pageSize ? Math.max(1, Number(pageSize)) : visible.length;
+
+    list.innerHTML = visible.slice(0, limit).map(productCard).join("");
+  }
+
+  function bindToolbar(products, toolbar) {
+    const bar = $$(".product-toolbar");
+    if (!bar) return;
+
+    const select = bar.querySelector("select");
+    if (select) {
+      select.addEventListener("change", () => {
+        renderProducts(products, select.value);
+      });
+    }
+
+    const viewSwitch = $$(".view-switch", bar);
+    if (viewSwitch) {
+      const [listBtn, gridBtn] = $$$("button", viewSwitch);
+      if (listBtn && gridBtn) {
+        listBtn.addEventListener("click", () => {
+          listBtn.classList.add("active");
+          gridBtn.classList.remove("active");
+          document.body.classList.remove("grid-view");
+        });
+        gridBtn.addEventListener("click", () => {
+          gridBtn.classList.add("active");
+          listBtn.classList.remove("active");
+          document.body.classList.add("grid-view");
+        });
+      }
+    }
+  }
+
+  function renderGallery(gallery) {
+    // Replace static slides with JSON slides (keeps your Swiper config intact)
+    const wrapper = $$(".service-gallery .swiper-wrapper");
+    const title = $$(".service-gallery h3");
+    if (!wrapper) return;
+
+    if (title) title.textContent = gallery.title || "Gallery";
+    wrapper.innerHTML = "";
+    (gallery.slides || []).forEach((s) => {
+      const slide = document.createElement("div");
+      slide.className = "swiper-slide";
+      slide.innerHTML = `
+        <div class="portfolio-item">
+          <img src="${esc(s.image)}" alt="" class="img-fluid" loading="lazy">
+          <div class="portfolio-info">
+            <h5>${esc(s.title)}</h5>
+            <p>${esc(s.description)}</p>
+          </div>
+        </div>`;
+      wrapper.appendChild(slide);
+    });
+
+    // If you need to (re)initialize Swiper when replacing slides dynamically,
+    // you can re-run your existing init code here or trigger a custom event.
+  }
+
+  function renderPageHeader(page) {
+    const pageTitle = $$(".page-title .container h1");
+    const pageIntro = $$(".page-title .container p");
+    if (pageTitle) pageTitle.textContent = esc(page.title);
+    if (pageIntro) pageIntro.innerHTML = esc(page.intro);
+  }
+
+  // Boot
+    fetch("assets/data/service-details.json?_=" + Date.now())
+      .then((r) => r.json())
+      .then((data) => {
+        // Header
+        renderPageHeader(data.page || {});
+
+        // Sidebar
+          // Get service ID from URL (?id=2)
+          function getServiceIdFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('id');
           }
-        }
+          const serviceId = getServiceIdFromURL();
+          let service = data.services?.[0];
+          if (serviceId) {
+            service = data.services?.find(s => String(s.id) === String(serviceId)) || service;
+          }
+          renderSidebarFeatures(service?.sidebar?.featuresList || {});
+          renderSidebarContact(service?.sidebar?.actionCard || {});
 
-        // Main title and meta
-        document.querySelector('.service-header h1').textContent = service.title;
-        document.querySelectorAll('.service-meta span')[0].innerHTML = `<i class="bi bi-award"></i> ${service.meta.type}`;
-        document.querySelectorAll('.service-meta span')[1].innerHTML = `<i class="bi bi-clock"></i> ${service.meta.since}`;
-        document.querySelectorAll('.service-meta span')[2].innerHTML = `<i class="bi bi-star-fill"></i> ${service.meta.rating}`;
-        document.querySelector('.service-header .lead').textContent = service.lead;
-
-        // Overview
-        const overviewBlock = document.querySelector('#service-details-tab-1 .content-block');
-        overviewBlock.querySelector('h3').textContent = service.overview.title;
-        const paras = overviewBlock.querySelectorAll('p');
-        paras[0].textContent = service.overview.paragraphs[0];
-        paras[1].textContent = service.overview.paragraphs[1];
-        document.querySelector('#service-details-tab-1 img').src = service.overview.image;
-
-        // Process
-        const processContainer = document.querySelector('#service-details-tab-2 .process-timeline');
-        processContainer.innerHTML = '';
-        service.process.forEach((step, index) => {
-          processContainer.innerHTML += `
-            <div class="timeline-item">
-              <div class="timeline-marker">${String(index + 1).padStart(2, '0')}</div>
-              <div class="timeline-content">
-                <h4>${step.title}</h4>
-                <p>${step.description}</p>
-              </div>
-            </div>`;
-        });
-
-        // Benefits
-        const benefitsContainer = document.querySelector('#service-details-tab-3 .row');
-        benefitsContainer.innerHTML = '';
-        service.benefits.forEach(benefit => {
-          benefitsContainer.innerHTML += `
-            <div class="col-md-6">
-              <div class="benefit-card">
-                <div class="benefit-icon">
-                  <i class="bi ${benefit.icon}"></i>
-                </div>
-                <h4>${benefit.title}</h4>
-                <p>${benefit.description}</p>
-              </div>
-            </div>`;
-        });
+        // Toolbar & products
+        renderToolbar(data.toolbar || {});
+        renderProducts(data.products || [], (data.toolbar || {}).defaultPageSize);
+        bindToolbar(data.products || [], data.toolbar || {});
 
         // Gallery
-        const galleryWrapper = document.querySelector('.swiper-wrapper');
-        galleryWrapper.innerHTML = '';
-        service.gallery.forEach(item => {
-          galleryWrapper.innerHTML += `
-            <div class="swiper-slide">
-              <div class="portfolio-item">
-                <img src="${item.image}" alt="" class="img-fluid" loading="lazy">
-                <div class="portfolio-info">
-                  <h5>${item.title}</h5>
-                  <p>${item.description}</p>
-                </div>
-              </div>
-            </div>`;
-        });
+        renderGallery(data.gallery || {});
 
-        // Sidebar Features List
-        const featuresList = service.sidebar?.featuresList;
-        if (featuresList) {
-          const featuresListContainer = document.querySelector('.service-features-list ul');
-          featuresListContainer.innerHTML = '';
-          featuresList.features.forEach(feature => {
-            featuresListContainer.innerHTML += `
-              <li>
-                <i class="bi ${feature.icon}"></i>
-                <div>
-                  <h5>${feature.title}</h5>
-                  <p>${feature.description}</p>
-                </div>
-              </li>
-            `;
-          });
-          const featuresListTitle = document.querySelector('.service-features-list h4');
-          if (featuresListTitle) featuresListTitle.textContent = featuresList.title;
-        }
-
-        // Sidebar Action Card
-        const actionCard = service.sidebar?.actionCard;
-        if (actionCard) {
-          const actionCardDiv = document.querySelector('.action-card');
-          actionCardDiv.querySelector('h3').textContent = actionCard.title;
-          actionCardDiv.querySelector('p').textContent = actionCard.description;
-          const btn = actionCardDiv.querySelector('a.btn-primary');
-          if (btn) btn.textContent = actionCard.buttonText;
-          const guaranteeSpan = actionCardDiv.querySelector('.guarantee');
-          if (guaranteeSpan) guaranteeSpan.innerHTML = `<i class="bi ${actionCard.guaranteeIcon}"></i> ${actionCard.guarantee}`;
-        }
+        // === MOUNT PRODUCTS LISTING DROP-IN ===
+        mountProductsFromJSON(data);
       })
-      .catch(err => {
-        console.error(err);
-        document.querySelector('.service-header h1').textContent = "Service Not Found";
+      .catch((err) => {
+        console.error("Failed to load service-details.json", err);
       });
-  </script>
+})();
+</script>
+
 
 
 
