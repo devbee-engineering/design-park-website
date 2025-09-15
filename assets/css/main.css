@@ -1,3 +1,11 @@
+.sidebar-feature-item {
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.sidebar-feature-item:hover {
+  background: #222831;
+  color: #fff;
+}
 #card-details-area {
   background: #fff;
   border-radius: 12px;
@@ -50,7 +58,7 @@
 }
 /* Highlight active sidebar feature */
 .sidebar-feature-item.active {
-  background: #e6f0ff;
+  background: #222831;
   border-left: 4px solid #007bff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -498,6 +506,7 @@ h6 {
     margin-right: 0;
     z-index: 9999;
   }
+
 
   .mobile-nav-active .navmenu {
     position: fixed;
@@ -3233,7 +3242,7 @@ section,
   left: 0;
   width: 80px;
   height: 4px;
-  background: var(--accent-color);
+  background: #222831;
 }
 
 .service-details .service-header .service-meta {

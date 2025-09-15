@@ -112,48 +112,6 @@
         <ul id="sidebar-features-list">
           <!-- Sidebar features will be rendered dynamically -->
         </ul>
-        <script>
-        // Accessibility: Add ARIA roles and keyboard navigation
-        document.addEventListener('DOMContentLoaded', function() {
-          const sidebarList = document.getElementById('sidebar-features-list');
-          if (sidebarList) {
-            sidebarList.setAttribute('role', 'listbox');
-            sidebarList.setAttribute('tabindex', '0');
-            sidebarList.addEventListener('keydown', function(e) {
-              const items = Array.from(sidebarList.querySelectorAll('.sidebar-feature-item'));
-              const activeIdx = items.findIndex(item => item.classList.contains('active'));
-              if (e.key === 'ArrowDown') {
-                let nextIdx = (activeIdx + 1) % items.length;
-                items[activeIdx].classList.remove('active');
-                items[nextIdx].classList.add('active');
-                items[nextIdx].focus();
-                items[nextIdx].click();
-                e.preventDefault();
-              } else if (e.key === 'ArrowUp') {
-                let prevIdx = (activeIdx - 1 + items.length) % items.length;
-                items[activeIdx].classList.remove('active');
-                items[prevIdx].classList.add('active');
-                items[prevIdx].focus();
-                items[prevIdx].click();
-                e.preventDefault();
-              }
-            });
-            // Make each item focusable
-            sidebarList.addEventListener('DOMNodeInserted', function() {
-              Array.from(sidebarList.querySelectorAll('.sidebar-feature-item')).forEach(li => {
-                li.setAttribute('tabindex', '-1');
-                li.setAttribute('role', 'option');
-              });
-            });
-          }
-          // Card details area ARIA
-          const cardDetails = document.getElementById('card-details-area');
-          if (cardDetails) {
-            cardDetails.setAttribute('role', 'region');
-            cardDetails.setAttribute('aria-label', 'Card Details');
-          }
-        });
-        </script>
         </ul>
       </div>
 
@@ -181,7 +139,7 @@
    <div class="col-lg-8 order-lg-2 order-2">
     <!-- Dynamic Card Details Area -->
     <div id="card-details-area" class="mb-4">
-      <img id="card-details-image" src="assets/img/services/services-2.webp" alt="Card Image" class="img-fluid mb-3" style="max-width:300px;">
+      <img id="card-details-image" src="assets/img/others/image -resized.jpg" alt="Card Image" class="img-fluid mb-3" style="max-width:300px;">
       <h3 id="card-details-title">Glass Card</h3>
       <p id="card-details-description">Premium glass finish visiting card. Durable, elegant, and perfect for high-impact branding.</p>
     </div>
@@ -214,7 +172,7 @@
           <!-- Thumb -->
           <div class="col-12 col-md-3 col-lg-3">
             <a href="#">
-              <img src="assets/img/services/services-2.webp" class="img-fluid product-thumb" alt="Gloss Single Side 500">
+              <img src="assets/img/others/image.jpg" class="img-fluid product-thumb" alt="Gloss Single Side 500">
             </a>
           </div>
           <!-- Details -->
@@ -260,7 +218,7 @@
       <div class="product-item">
         <div class="row g-3 align-items-center">
           <div class="col-12 col-md-3">
-            <a href="#"><img src="assets/img/services/services-4.webp" class="img-fluid product-thumb" alt="Gloss Single Side 1000"></a>
+            <a href="#"><img src="assets/img/others/image.jpg" class="img-fluid product-thumb" alt="Gloss Single Side 1000"></a>
           </div>
           <div class="col-12 col-md-6">
             <h5 class="mb-2 product-title">Gloss Single Side 1000</h5>
@@ -297,7 +255,7 @@
       <div class="product-item">
         <div class="row g-3 align-items-center">
           <div class="col-12 col-md-3">
-            <a href="#"><img src="assets/img/services/services-10.webp" class="img-fluid product-thumb" alt="Gloss Front & Back 500"></a>
+            <a href="#"><img src="assets/img/others/image.jpg" class="img-fluid product-thumb" alt="Gloss Front & Back 500"></a>
           </div>
           <div class="col-12 col-md-6">
             <h5 class="mb-2 product-title">Gloss Front &amp; Back 500</h5>
@@ -334,7 +292,7 @@
       <div class="product-item">
         <div class="row g-3 align-items-center">
           <div class="col-12 col-md-3">
-            <a href="#"><img src="assets/img/services/services-7.webp" class="img-fluid product-thumb" alt="Gloss Front & Back 1000"></a>
+            <a href="#"><img src="assets/img/others/image.jpg" class="img-fluid product-thumb" alt="Gloss Front & Back 1000"></a>
           </div>
           <div class="col-12 col-md-6">
             <h5 class="mb-2 product-title">Gloss Front &amp; Back 1000</h5>
@@ -406,7 +364,7 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="portfolio-item">
-                <img src="assets/img/services/services-2.webp" alt="" class="img-fluid" loading="lazy">
+                <img src="assets/img/others/image.jpg" alt="" class="img-fluid" loading="lazy">
                 <div class="portfolio-info">
                   <h5>Social Media Campaign</h5>
                   <p>Increased engagement by 187%</p>
@@ -415,7 +373,7 @@
             </div>
             <div class="swiper-slide">
               <div class="portfolio-item">
-                <img src="assets/img/services/services-4.webp" alt="" class="img-fluid" loading="lazy">
+                <img src="assets/img/others/image.jpg" alt="" class="img-fluid" loading="lazy">
                 <div class="portfolio-info">
                   <h5>SEO Optimization</h5>
                   <p>Ranked #1 for target keywords</p>
@@ -424,7 +382,7 @@
             </div>
             <div class="swiper-slide">
               <div class="portfolio-item">
-                <img src="assets/img/services/services-10.webp" alt="" class="img-fluid" loading="lazy">
+                <img src="assets/img/others/image.jpg" alt="" class="img-fluid" loading="lazy">
                 <div class="portfolio-info">
                   <h5>Content Marketing</h5>
                   <p>200% increase in organic traffic</p>
@@ -658,25 +616,33 @@
   const telHref = (digits) => `https://wa.me/${digits}`;
   const money = (display) => esc(display);
 
-  function renderSidebarFeatures(sidebar) {
-    const ul = document.getElementById("sidebar-features-list");
-    if (!ul) return;
-    ul.innerHTML = "";
-    (sidebar.features || []).forEach((f, idx) => {
-      const li = document.createElement("li");
-      li.setAttribute("data-feature-title", f.title);
-      li.classList.add("sidebar-feature-item");
-      if (idx === 0) li.classList.add("active"); // First item active by default
-      li.innerHTML = `
-        <i class="bi ${esc(f.icon)}"></i>
-        <div>
-          <h5>${esc(f.title)}</h5>
-          <p>${esc(f.description)}</p>
-        </div>
-      `;
-      ul.appendChild(li);
-    });
-  }
+ function renderSidebarFeatures(sidebar) {
+  const ul = document.getElementById("sidebar-features-list");
+  if (!ul) return;
+  ul.innerHTML = "";
+
+  const features = sidebar.features || [];
+  features.forEach((f, idx) => {
+    const li = document.createElement("li");
+    li.classList.add("sidebar-feature-item");
+    // Unique identifiers for click detection
+    li.dataset.featureId = (f.id != null ? String(f.id) : String(idx));
+    li.dataset.featureKey = (f.key || f.title || `feature-${idx}`)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-");
+
+    if (idx === 0) li.classList.add("active"); // first active
+    li.innerHTML = `
+      <i class="bi ${esc(f.icon)}"></i>
+      <div>
+        <h5>${esc(f.title)}</h5>
+        <p>${esc(f.description)}</p>
+      </div>
+    `;
+    ul.appendChild(li);
+  });
+}
+
 
   function renderSidebarContact(sidebar) {
     const wrap = $$(".contact-info");
@@ -910,21 +876,34 @@
             area.classList.remove('fade-out');
           }, 400);
         }
+
         const features = service?.sidebar?.featuresList?.features || [];
         if (features.length) updateCardDetails(features[0]);
 
-        // Sidebar click handler
-        document.getElementById('sidebar-features-list').addEventListener('click', function(e) {
-          let li = e.target;
-          while (li && !li.classList.contains('sidebar-feature-item')) li = li.parentElement;
-          if (!li) return;
-          // Remove active from all
-          Array.from(document.querySelectorAll('.sidebar-feature-item')).forEach(el => el.classList.remove('active'));
-          li.classList.add('active');
-          const title = li.getAttribute('data-feature-title');
-          const feature = features.find(f => f.title === title);
-          if (feature) updateCardDetails(feature);
-        });
+        // Sidebar click handler with robust data lookup
+        const listEl = document.getElementById('sidebar-features-list');
+        if (listEl) {
+          listEl.addEventListener('click', (e) => {
+            const li = e.target.closest('.sidebar-feature-item');
+            if (!li) return;
+
+            // Toggle active state
+            listEl.querySelectorAll('.sidebar-feature-item').forEach(el => el.classList.remove('active'));
+            li.classList.add('active');
+
+            // Resolve the feature via data-feature-id
+            const id = li.dataset.featureId;
+            let feature = features.find(f => String(f.id) === String(id));
+
+            // Fallback: treat id as index if no explicit ids in JSON
+            if (!feature) {
+              const idx = Number(id);
+              if (!Number.isNaN(idx)) feature = features[idx];
+            }
+
+            if (feature) updateCardDetails(feature);
+          });
+        }
 
         // Toolbar & products
         renderToolbar(data.toolbar || {});
@@ -936,11 +915,11 @@
 
         // === MOUNT PRODUCTS LISTING DROP-IN ===
         mountProductsFromJSON(data);
-      })
-      .catch((err) => {
+            })
+            .catch((err) => {
         console.error("Failed to load service-details.json", err);
-      });
-})();
+            });
+      })();
 </script>
 
 
