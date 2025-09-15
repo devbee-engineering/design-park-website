@@ -109,42 +109,51 @@
     <div class="service-sidebar" data-aos="fade-right">
       <div class="service-features-list" data-aos="fade-up" data-aos-delay="200">
         <h4>What We Offer</h4>
-        <ul>
-          <li>
-            <i class="bi bi-megaphone"></i>
-            <div>
-              <h5>Social Media Marketing</h5>
-              <p>Strategic presence across all relevant platforms</p>
-            </div>
-          </li>
-          <li>
-            <i class="bi bi-search"></i>
-            <div>
-              <h5>SEO Optimization</h5>
-              <p>Improve your search engine rankings</p>
-            </div>
-          </li>
-          <li>
-            <i class="bi bi-newspaper"></i>
-            <div>
-              <h5>Content Marketing</h5>
-              <p>Engaging content that converts visitors</p>
-            </div>
-          </li>
-          <li>
-            <i class="bi bi-envelope-paper"></i>
-            <div>
-              <h5>Email Campaigns</h5>
-              <p>Targeted email marketing strategies</p>
-            </div>
-          </li>
-          <li>
-            <i class="bi bi-graph-up-arrow"></i>
-            <div>
-              <h5>Analytics &amp; Reporting</h5>
-              <p>Comprehensive performance tracking</p>
-            </div>
-          </li>
+        <ul id="sidebar-features-list">
+          <!-- Sidebar features will be rendered dynamically -->
+        </ul>
+        <script>
+        // Accessibility: Add ARIA roles and keyboard navigation
+        document.addEventListener('DOMContentLoaded', function() {
+          const sidebarList = document.getElementById('sidebar-features-list');
+          if (sidebarList) {
+            sidebarList.setAttribute('role', 'listbox');
+            sidebarList.setAttribute('tabindex', '0');
+            sidebarList.addEventListener('keydown', function(e) {
+              const items = Array.from(sidebarList.querySelectorAll('.sidebar-feature-item'));
+              const activeIdx = items.findIndex(item => item.classList.contains('active'));
+              if (e.key === 'ArrowDown') {
+                let nextIdx = (activeIdx + 1) % items.length;
+                items[activeIdx].classList.remove('active');
+                items[nextIdx].classList.add('active');
+                items[nextIdx].focus();
+                items[nextIdx].click();
+                e.preventDefault();
+              } else if (e.key === 'ArrowUp') {
+                let prevIdx = (activeIdx - 1 + items.length) % items.length;
+                items[activeIdx].classList.remove('active');
+                items[prevIdx].classList.add('active');
+                items[prevIdx].focus();
+                items[prevIdx].click();
+                e.preventDefault();
+              }
+            });
+            // Make each item focusable
+            sidebarList.addEventListener('DOMNodeInserted', function() {
+              Array.from(sidebarList.querySelectorAll('.sidebar-feature-item')).forEach(li => {
+                li.setAttribute('tabindex', '-1');
+                li.setAttribute('role', 'option');
+              });
+            });
+          }
+          // Card details area ARIA
+          const cardDetails = document.getElementById('card-details-area');
+          if (cardDetails) {
+            cardDetails.setAttribute('role', 'region');
+            cardDetails.setAttribute('aria-label', 'Card Details');
+          }
+        });
+        </script>
         </ul>
       </div>
 
@@ -170,6 +179,12 @@
 
   <!-- Main content SECOND (right side) -->
    <div class="col-lg-8 order-lg-2 order-2">
+    <!-- Dynamic Card Details Area -->
+    <div id="card-details-area" class="mb-4">
+      <img id="card-details-image" src="assets/img/services/services-2.webp" alt="Card Image" class="img-fluid mb-3" style="max-width:300px;">
+      <h3 id="card-details-title">Glass Card</h3>
+      <p id="card-details-description">Premium glass finish visiting card. Durable, elegant, and perfect for high-impact branding.</p>
+    </div>
     <!-- Toolbar (optional, matches the screenshot) -->
     <div class="product-toolbar d-flex justify-content-between align-items-center mb-3">
       <div class="view-switch d-flex gap-2">
@@ -644,16 +659,14 @@
   const money = (display) => esc(display);
 
   function renderSidebarFeatures(sidebar) {
-    const wrap = $$(".service-features-list");
-    if (!wrap) return;
-
-    const titleEl = wrap.querySelector("h4") || document.createElement("h4");
-    titleEl.textContent = sidebar.featuresTitle || "What We Offer";
-
-    const ul = wrap.querySelector("ul") || document.createElement("ul");
+    const ul = document.getElementById("sidebar-features-list");
+    if (!ul) return;
     ul.innerHTML = "";
-    (sidebar.features || []).forEach((f) => {
+    (sidebar.features || []).forEach((f, idx) => {
       const li = document.createElement("li");
+      li.setAttribute("data-feature-title", f.title);
+      li.classList.add("sidebar-feature-item");
+      if (idx === 0) li.classList.add("active"); // First item active by default
       li.innerHTML = `
         <i class="bi ${esc(f.icon)}"></i>
         <div>
@@ -663,9 +676,6 @@
       `;
       ul.appendChild(li);
     });
-
-    if (!wrap.contains(titleEl)) wrap.prepend(titleEl);
-    if (!wrap.contains(ul)) wrap.appendChild(ul);
   }
 
   function renderSidebarContact(sidebar) {
@@ -873,19 +883,48 @@
         // Header
         renderPageHeader(data.page || {});
 
-        // Sidebar
-          // Get service ID from URL (?id=2)
-          function getServiceIdFromURL() {
-            const params = new URLSearchParams(window.location.search);
-            return params.get('id');
-          }
-          const serviceId = getServiceIdFromURL();
-          let service = data.services?.[0];
-          if (serviceId) {
-            service = data.services?.find(s => String(s.id) === String(serviceId)) || service;
-          }
-          renderSidebarFeatures(service?.sidebar?.featuresList || {});
-          renderSidebarContact(service?.sidebar?.actionCard || {});
+        // Get service ID from URL (?id=2)
+        function getServiceIdFromURL() {
+          const params = new URLSearchParams(window.location.search);
+          return params.get('id');
+        }
+        const serviceId = getServiceIdFromURL();
+        let service = data.services?.[0];
+        if (serviceId) {
+          service = data.services?.find(s => String(s.id) === String(serviceId)) || service;
+        }
+
+        // Render sidebar features
+        renderSidebarFeatures(service?.sidebar?.featuresList || {});
+        renderSidebarContact(service?.sidebar?.actionCard || {});
+
+        // Initial card details (first feature)
+        function updateCardDetails(feature) {
+          if (!feature?.details) return;
+          const area = document.getElementById('card-details-area');
+          area.classList.add('fade-out');
+          setTimeout(() => {
+            document.getElementById('card-details-image').src = feature.details.image;
+            document.getElementById('card-details-title').textContent = feature.details.title;
+            document.getElementById('card-details-description').textContent = feature.details.description;
+            area.classList.remove('fade-out');
+          }, 400);
+        }
+        const features = service?.sidebar?.featuresList?.features || [];
+        if (features.length) updateCardDetails(features[0]);
+
+        // Sidebar click handler
+        document.getElementById('sidebar-features-list').addEventListener('click', function(e) {
+          let li = e.target;
+          while (li && !li.classList.contains('sidebar-feature-item')) li = li.parentElement;
+          if (!li) return;
+          // Remove active from all
+          Array.from(document.querySelectorAll('.sidebar-feature-item')).forEach(el => el.classList.remove('active'));
+          li.classList.add('active');
+          const title = li.getAttribute('data-feature-title');
+          const feature = features.find(f => f.title === title);
+          if (feature) updateCardDetails(feature);
+        });
 
         // Toolbar & products
         renderToolbar(data.toolbar || {});

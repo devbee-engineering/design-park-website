@@ -66,36 +66,71 @@
               "icon": "bi-megaphone",
               "title": "Glass Card",
               "description": "Establish a strategic presence across all key platforms."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Glass Card",
+                  "description": "Premium glass finish visiting card. Durable, elegant, and perfect for high-impact branding."
+                }
             },
             {
               "icon": "bi bi-code-square",
               "title": "Matt Card",
               "description": "Enhance your search engine rankings effectively."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Matt Card",
+                  "description": "Smooth matte finish for a sophisticated look. Ideal for professional networking."
+                }
             },
             {
               "icon": "bi-newspaper",
               "title": "Synthetic (Non-Terrable)",
               "description": "Deliver engaging, conversion-focused content."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Synthetic (Non-Terrable)",
+                  "description": "Tear-resistant synthetic cards for long-lasting use."
+                }
             },
             {
               "icon": "bi-envelope-paper",
               "title": "White Linen Texture",
               "description": "Track performance with comprehensive analytics."
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "White Linen Texture",
+                  "description": "Elegant linen texture for a premium tactile experience."
+                }
             },
             {
               "icon": "bi bi-pin-map",
               "title": "Needle Point (Dotted)",
               "description": "Monitor and optimize marketing effectiveness."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Needle Point (Dotted)",
+                  "description": "Unique dotted finish for creative and memorable cards."
+                }
             },
             {
               "icon": "bi bi-meta",
               "title": "Metalic (Perfum Board)",
               "description": "Implement targeted email marketing campaigns."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Metalic (Perfum Board)",
+                  "description": "Metallic finish with perfume board for a luxurious feel."
+                }
             },
             {
               "icon": "bi-graph-up-arrow",
               "title": "Customize Cards",
               "description": "Tailor card designs to meet your unique business needs."
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "Customize Cards",
+                  "description": "Fully customizable cards to match your brand identity."
+                }
             }
               ],
               "productsListing": {
@@ -243,41 +278,81 @@
               "icon": "bi-megaphone",
               "title": "Family Cards",
               "description": "Strategic presence across all relevant platforms."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Family Cards",
+                  "description": "Beautifully crafted family cards for memorable occasions."
+                }
             },
             {
               "icon": "bi bi-postcard",
               "title": "Friendship Cards",
               "description": "Engaging designs that convert interest into orders."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Friendship Cards",
+                  "description": "Creative friendship cards to celebrate bonds and memories."
+                }
             },
             {
               "icon": "bi-newspaper",
               "title": "Creative Cards",
               "description": "Engaging content that converts visitors"
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Creative Cards",
+                  "description": "Unique creative cards for every special moment."
+                }
             },
             {
               "icon": "bi-envelope-paper",
               "title": "Innovative Cards",
               "description": "Efficient solutions for quick launches."
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "Innovative Cards",
+                  "description": "Innovative card designs for modern celebrations."
+                }
             },
             {
               "icon": "bi-graph-up-arrow",
               "title": "Readymade Cards",
               "description": "Leverage social platforms for viral marketing."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Readymade Cards",
+                  "description": "Ready-to-use cards for quick and easy invitations."
+                }
             },
             {
               "icon": "bi bi-whatsapp",
               "title": "WhatsApp Promo",
               "description": "Personalized designs tailored to your needs."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "WhatsApp Promo",
+                  "description": "Promotional cards for WhatsApp sharing."
+                }
             },
             {
               "icon": "bi bi-sign-intersection-side-fill",
               "title": "Customize Cards",
               "description": "Comprehensive performance tracking"
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "Customize Cards",
+                  "description": "Fully customizable cards for your unique needs."
+                }
             },
             {
               "icon": "bi bi-transparency",
               "title": "Transperant Cards",
               "description": "Unique styles to make your invitations stand out."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Transperant Cards",
+                  "description": "Transparent cards for a modern, elegant look."
+                }
             }
           ]
         }
@@ -349,31 +424,61 @@
               "icon": "bi bi-align-top",
               "title": "Table Top Calendars",
               "description": "Strategic placement for maximum visibility."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Table Top Calendars",
+                  "description": "Stylish table top calendars for office and home."
+                }
             },
             {
               "icon": "bi bi-calendar3",
               "title": "Monthly Calendars",
               "description": "Drive continuous engagement month-by-month."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Monthly Calendars",
+                  "description": "Monthly calendars to keep your brand visible all year."
+                }
             },
             {
               "icon": "bi bi-calendar2-day",
               "title": "Customize Calenders",
               "description": "Personalized designs that resonate with your audience."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Customize Calenders",
+                  "description": "Custom calendar designs for your business or event."
+                }
             },
             {
               "icon": "bi bi-calendar2-heart",
               "title": "Wedding Calenders",
               "description": "Elegant, themed calendars perfect for special occasions."
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "Wedding Calenders",
+                  "description": "Beautiful wedding calendars for memorable celebrations."
+                }
             },
             {
               "icon": "bi bi-clipboard2-pulse",
               "title": "Creative Calenders",
               "description": "Innovative designs that stand out."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Creative Calenders",
+                  "description": "Creative calendar designs to inspire your audience."
+                }
             },
             {
               "icon": "bi bi-calendar-range-fill",
               "title": "ReadyMade Calenders",
               "description": "Convenient, quick-to-launch solutions."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "ReadyMade Calenders",
+                  "description": "Ready-made calendars for instant use."
+                }
             }
           ]
         }
@@ -445,51 +550,101 @@
               "icon": "bi bi-patch-plus",
               "title": "Pamphlets",
               "description": "Strategic presence across relevant platforms."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Pamphlets",
+                  "description": "High-quality pamphlets for effective marketing."
+                }
             },
             {
               "icon": "bi bi-qr-code-scan",
               "title": "Catalogues",
               "description": "Improve visibility and rankings."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Catalogues",
+                  "description": "Professional catalogues to showcase your products."
+                }
             },
             {
               "icon": "bi bi-receipt-cutoff",
               "title": "HandBill",
               "description": "Engaging print content that drives action."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "HandBill",
+                  "description": "Handbills for quick and impactful promotions."
+                }
             },
             {
               "icon": "bi bi-buildings",
               "title": "Company Profiles",
               "description": "Targeted marketing materials."
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "Company Profiles",
+                  "description": "Company profile brochures for professional branding."
+                }
             },
             {
               "icon": "bi bi-whatsapp",
               "title": "WhatsApp Promotion",
               "description": "Effective messaging on popular platforms."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "WhatsApp Promotion",
+                  "description": "Promotional materials for WhatsApp campaigns."
+                }
             },
             {
               "icon": "bi bi-envelope-paper",
               "title": "Envelops",
               "description": "Customized branding on all mail."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Envelops",
+                  "description": "Custom envelopes for branded correspondence."
+                }
             },
             {
               "icon": "bi bi-inboxes",
               "title": "Letter Head",
               "description": "Professional corporate identity."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Letter Head",
+                  "description": "Branded letterheads for official documents."
+                }
             },
              {
               "icon": "bi bi-journal-text",
               "title": "Bill Book",
               "description": "Track and manage transactions professionally."
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "Bill Book",
+                  "description": "Bill books for organized business transactions."
+                }
             },
              {
               "icon": "bi bi-badge-vo",
               "title": "Vouchers",
               "description": "Drive sales and promotions."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Vouchers",
+                  "description": "Promotional vouchers for sales and offers."
+                }
             },
              {
               "icon": "bi bi-stickies",
               "title": "Stickers",
               "description": "Creative branding tools."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Stickers",
+                  "description": "Custom stickers for creative branding."
+                }
             }
           ]
         }
@@ -561,36 +716,71 @@
               "icon": "bi bi-postage",
               "title": "Poster",
               "description": "Eye-catching visuals for events, promotions, and advertising."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Poster",
+                  "description": "Vibrant posters for impactful advertising."
+                }
             },
             {
               "icon": "bi bi-projector-fill",
               "title": "Projects",
               "description": "Academic or business-related documents in vibrant print quality."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Projects",
+                  "description": "High-quality project prints for academic and business needs."
+                }
             },
             {
               "icon": "bi bi-building-fill-gear",
               "title": "Business Cards",
               "description": "Professionally designed cards to leave a strong impression."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Business Cards",
+                  "description": "Professional business cards for networking."
+                }
             },
             {
               "icon": "bi bi-truck",
               "title": "(1 Hour Delivery)",
               "description": "Fast turnaround for urgent printing needs."
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "(1 Hour Delivery)",
+                  "description": "Express printing service for urgent requirements."
+                }
             },
             {
               "icon": "bi bi-newspaper",
               "title": "Certificate",
               "description": "High-quality prints for awards, training, or achievements."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Certificate",
+                  "description": "Premium certificates for awards and recognition."
+                }
             },
             {
               "icon": "bi bi-badge-ad",
               "title": "Advertisements",
               "description": "Engaging ad prints that stand out in any medium."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Advertisements",
+                  "description": "Eye-catching advertisement prints for promotions."
+                }
             },
             {
               "icon": "bi bi-book",
               "title": "Books",
               "description": "Professional-grade color printing for booklets or presentations."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Books",
+                  "description": "High-quality book printing for presentations and booklets."
+                }
             }
           ]
         }
@@ -662,36 +852,71 @@
               "icon": "bi bi-newspaper",
               "title": "Paper Sticker",
               "description": "Versatile and affordable for everyday branding."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Paper Sticker",
+                  "description": "Affordable paper stickers for daily branding needs."
+                }
             },
             {
               "icon": "bi bi-pip",
               "title": "PVC Stickers",
               "description": "Durable, waterproof options for outdoor or rugged use."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "PVC Stickers",
+                  "description": "Waterproof PVC stickers for tough environments."
+                }
             },
             {
               "icon": "bi bi-perplexity",
               "title": "Transperant Stickers",
               "description": "Sleek, subtle branding for glass, packaging, or tech."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Transperant Stickers",
+                  "description": "Transparent stickers for elegant packaging."
+                }
             },
             {
               "icon": "bi-envelope-paper",
               "title": "Labels",
               "description": "Professional labeling for bottles, products, or logistics."
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "Labels",
+                  "description": "Custom labels for bottles and products."
+                }
             },
             {
               "icon": "bi bi-hourglass-bottom",
               "title": "Bottle Sticker",
               "description": "Custom-fit designs for beverage or cosmetics packaging."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Bottle Sticker",
+                  "description": "Bottle stickers for beverages and cosmetics."
+                }
             },
             {
               "icon": "bi bi-cpu",
               "title": "Product Stickers",
               "description": "Eye-catching labels to boost product appeal."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Product Stickers",
+                  "description": "Product stickers to enhance shelf appeal."
+                }
             },
             {
               "icon": "bi-graph-up-arrow",
               "title": "Advertisement Stickers",
               "description": "Promotional pieces for events, offers, and campaigns."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Advertisement Stickers",
+                  "description": "Stickers for advertising events and offers."
+                }
             }
           ]
         }
@@ -763,36 +988,71 @@
               "icon": "bi-megaphone",
               "title": "White Linen Texture",
               "description": "Elegant surface for upscale branding."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "White Linen Texture",
+                  "description": "Premium white linen boards for elegant displays."
+                }
             },
             {
               "icon": "bi-search",
               "title": "Needle point",
               "description": "Fine textured boards for a sophisticated finish."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Needle point",
+                  "description": "Needle point boards for a refined look."
+                }
             },
             {
               "icon": "bi-newspaper",
               "title": "Metalic",
               "description": "Glossy, attention-grabbing boards for modern appeal."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Metalic",
+                  "description": "Metallic boards for modern, eye-catching displays."
+                }
             },
             {
               "icon": "bi-envelope-paper",
               "title": "Synthetic",
               "description": "Durable, tear-resistant options for long-term use."
+                ,"details": {
+                  "image": "assets/img/services/services-7.webp",
+                  "title": "Synthetic",
+                  "description": "Synthetic boards for durability and longevity."
+                }
             },
             {
               "icon": "bi-graph-up-arrow",
               "title": "Thick Synthetic",
               "description": "Extra-rigid boards ideal for outdoor and heavy-duty applications."
+                ,"details": {
+                  "image": "assets/img/services/services-2.webp",
+                  "title": "Thick Synthetic",
+                  "description": "Thick synthetic boards for heavy-duty use."
+                }
             },
             {
               "icon": "bi-graph-up-arrow",
               "title": "Customize Boards",
               "description": "Tailor-made formats and finishes to fit your brand identity."
+                ,"details": {
+                  "image": "assets/img/services/services-4.webp",
+                  "title": "Customize Boards",
+                  "description": "Custom boards to match your brand style."
+                }
             },
             {
               "icon": "bi-graph-up-arrow",
               "title": "Papers",
               "description": "Lightweight and cost-effective for mass presentations or displays."
+                ,"details": {
+                  "image": "assets/img/services/services-10.webp",
+                  "title": "Papers",
+                  "description": "Paper boards for affordable, large-scale displays."
+                }
             }
           ]
         }
