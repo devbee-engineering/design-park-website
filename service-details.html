@@ -138,9 +138,9 @@
    <div class="col-lg-8 order-lg-2 order-2">
     <!-- Dynamic Card Details Area -->
     <div id="card-details-area" class="mb-4">
-      <img id="card-details-image" src="assets/img/others/image -resized.jpg" alt="Card Image" class="img-fluid mb-3" style="max-width:300px;">
+      <!-- <img id="card-details-image" src="assets/img/others/image -resized.jpg" alt="Card Image" class="img-fluid mb-3" style="max-width:300px;">
       <h3 id="card-details-title">Glass Card</h3>
-      <p id="card-details-description">Premium glass finish visiting card. Durable, elegant, and perfect for high-impact branding.</p>
+      <p id="card-details-description">Premium glass finish visiting card. Durable, elegant, and perfect for high-impact branding.</p> -->
     </div>
     <!-- Toolbar (optional, matches the screenshot) -->
     <div class="product-toolbar d-flex justify-content-between align-items-center mb-3">
@@ -366,10 +366,14 @@
 
   function productCardHTML(p, waDefault) {
     const sep = `<span class="sep">|</span>`;
-    const gst = p.pricing?.gstInclusive ? `<span class="gst-badge">GST Inclusive</span>` : "";
+    const gst = ""; // Removed GST badge
     const printingChunk = p.specs?.printing ? `${esc(p.specs.printing)} ${esc(p.specs.printingLabel)}` : esc(p.specs.printingLabel);
-    const price = esc(p.pricing?.display ?? "");
+    const price = esc(p.pricing?.display ?? "Price not available");
     const waNumber = p.actions?.whatsAppNumber || waDefault;
+
+    // Debug log
+    console.log("Product pricing data:", p.pricing);
+    console.log("Formatted price:", price);
 
     const cartBtn = p.actions?.cartEnabled
       ? `<button class="btn btn-outline-secondary btn-sm me-2 d-none d-md-inline-flex" aria-label="Add to cart"><i class="bi bi-basket2 me-1"></i></button>`
@@ -390,7 +394,6 @@
         <div class="col-12 col-md-6 col-lg-6">
           <h5 class="mb-2 product-title">${esc(p.title)}</h5>
           <p class="mb-1 product-attrs">
-            ${gst} ${sep}
             <strong>Qty:</strong> ${esc(p.specs.qty)} ${sep}
             ${esc(p.specs.substrate)} ${sep}
             ${printingChunk} ${sep}
@@ -415,14 +418,32 @@
 
   function renderProductsList(listing) {
     const host = document.querySelector(".product-list");
-    if (!host || !listing) return;
+    console.log("renderProductsList called with:", listing);
+    console.log("Found container:", host);
+    if (!host || !listing) {
+      console.log("Missing host or listing data");
+      return;
+    }
 
     const items = (listing.items || []).filter((x) => !x.hidden);
+    console.log("Filtered items:", items);
     const select = document.querySelector(".product-toolbar select");
     const pageSize = Number(select?.value || listing.toolbar?.defaultPageSize || items.length);
     const toRender = items.slice(0, Math.max(1, pageSize));
+    console.log("Items to render:", toRender);
 
-    host.innerHTML = toRender.map((p) => productCardHTML(p, listing.whatsAppDefaultNumber)).join("");
+    const htmlParts = toRender.map((p) => {
+      const html = productCardHTML(p, listing.whatsAppDefaultNumber);
+      console.log("Generated HTML for product:", p.title, html.substring(0, 100) + "...");
+      return html;
+    });
+    const htmlContent = htmlParts.join("");
+    console.log("Total HTML length:", htmlContent.length);
+    console.log("First 500 chars of HTML:", htmlContent.substring(0, 500));
+    
+    host.innerHTML = htmlContent;
+    console.log("HTML inserted. Container children count:", host.children.length);
+    console.log("Container innerHTML length:", host.innerHTML.length);
 
     // (Re)bind select change
     if (select && !select._bound) {
@@ -432,10 +453,22 @@
   }
 
   /* === CALL THIS INSIDE YOUR EXISTING fetch().then(json => { ... }) === */
-  function mountProductsFromJSON(json) {
-    const listing = json.productsListing;
-    if (!listing) return;
-    renderProductsToolbar(listing);
+  function mountProductsFromJSON(feature) {
+    console.log("mountProductsFromJSON called with:", feature);
+    
+    const listing = feature.productsListing?.items;
+    console.log("Extracted listing:", listing);
+    if (!listing) {
+      console.log("No listing found, trying alternative structure");
+      const altListing = feature.productsListing;
+      if (altListing && altListing.items) {
+        console.log("Using alternative listing structure");
+        renderProductsList(altListing);
+        return;
+      }
+      console.log("No products found for this feature");
+      return;
+    }
     renderProductsList(listing);
   }
   </script>
@@ -695,18 +728,33 @@
 
         // Initial card details (first feature)
         function updateCardDetails(feature) {
-          if (!feature?.details) return;
+          if (!feature?.hero) return;
           const area = document.getElementById('card-details-area');
+          if (!area) return;
+          
           area.classList.add('fade-out');
           setTimeout(() => {
-            document.getElementById('card-details-image').src = feature.details.image;
-            document.getElementById('card-details-title').textContent = feature.details.title;
-            document.getElementById('card-details-description').textContent = feature.details.description;
+            const image = document.getElementById('card-details-image');
+            const title = document.getElementById('card-details-title');
+            const description = document.getElementById('card-details-description');
+            
+            if (image) image.src = feature.hero.image;
+            if (title) title.textContent = feature.hero.title;
+            if (description) description.textContent = feature.hero.description;
+            
             area.classList.remove('fade-out');
           }, 400);
+          
+          // Load products for this feature
+          if (feature.productsListing) {
+            console.log("Loading products for feature:", feature.title);
+            console.log("Products data:", feature.productsListing);
+            mountProductsFromJSON(feature);
+          }
         }
 
         const features = service?.sidebar?.featuresList?.features || [];
+        console.log("Available features:", features);
         if (features.length) updateCardDetails(features[0]);
 
         // Sidebar click handler with robust data lookup
@@ -721,9 +769,12 @@
             li.classList.add('active');
 
             // Resolve the feature via data-feature-id
-            const id = li.dataset.featureId;
-            let feature = features.find(f => String(f.id) === String(id));
-
+            console.error("li.dataset", li.dataset.idx)
+            const id = li.dataset.featureId || li.dataset.idx;
+            // const id = li.dataset.featureId;
+            // let feature = features.find(f => String(f.id) === String(id));
+            let feature = features[id];
+            console.error("feature of one", feature, "id", id)
             // Fallback: treat id as index if no explicit ids in JSON
             if (!feature) {
               const idx = Number(id);
@@ -734,16 +785,18 @@
           });
         }
 
-        // Toolbar & products
-        renderToolbar(data.toolbar || {});
-        renderProducts(data.products || [], (data.toolbar || {}).defaultPageSize);
-        bindToolbar(data.products || [], data.toolbar || {});
+        // Toolbar & products - removed conflicting calls
+        // renderToolbar(data.toolbar || {});
+        // renderProducts(data.products || [], (data.toolbar || {}).defaultPageSize);
+        // bindToolbar(data.products || [], data.toolbar || {});
 
         // Gallery
         renderGallery(data.gallery || {});
 
-        // === MOUNT PRODUCTS LISTING DROP-IN ===
-        mountProductsFromJSON(data);
+        // Load products for the first feature initially
+        if (features.length) {
+          updateCardDetails(features[0]);
+        }
             })
             .catch((err) => {
         console.error("Failed to load service-details.json", err);
