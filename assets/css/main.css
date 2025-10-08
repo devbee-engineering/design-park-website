@@ -1,3 +1,37 @@
+/* Index page background styling */
+.index-page {
+  background-image: url('../img/bg-image.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Add a subtle overlay for better content readability */
+.index-page::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(3, 17, 25, 0.4);
+  z-index: -1;
+}
+
+/* Ensure sections have proper contrast */
+.index-page .services {
+  background: rgba(27, 38, 44, 0.6);
+  backdrop-filter: blur(3px);
+}
+
+/* Contact section styling for background compatibility */
+.index-page .contact {
+  background: rgba(27, 38, 44, 0.6);
+  backdrop-filter: blur(3px);
+}
+
 .sidebar-feature-item {
   cursor: pointer;
   transition: background 0.2s;
@@ -1464,19 +1498,19 @@ section,
 .services .service-card:hover::before {
   opacity: 1;
   visibility: visible;
-  background-color: var(--surface-color);
+  background-color: #ffffff;
 }
 
 .services .service-card:hover h3 a {
-  color: var(--accent-color);
+  color: #000000;
 }
 
 .services .service-card:hover h3 a:hover {
-  color: var(--accent-color);
+  color: #000000;
 }
 
 .services .service-card:hover p {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: #333333;
 }
 
 .services .service-card:hover .card-action {
@@ -1487,6 +1521,7 @@ section,
 
 .services .service-card:hover .service-icon i {
   transform: scale(1.1);
+  color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
