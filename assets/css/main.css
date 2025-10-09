@@ -94,6 +94,7 @@
 .sidebar-feature-item.active {
   background: #222831;
   border-left: 4px solid #007bff;
+  padding-left: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 /**
