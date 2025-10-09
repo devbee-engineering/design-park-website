@@ -246,8 +246,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const div = document.createElement('div');
       div.className = 'product-item';
       // GST Inclusive Rs
-      const price = item.pricing && item.pricing.price
-        ? `<span style='color:#d2a48c;font-weight:bold;font-size:1.2em;'>${item.pricing.gstInclusive ? 'GST Inclusive Rs ' : 'Rs '}${item.pricing.price}</span>`
+      const price = item.pricing && item.pricing.display
+        ? `<span class="badge bg-light text-dark px-3 py-2 mb-2" style="font-weight:bold;font-size:1.1em; border:1px solid #d2a48c; color:#d2a48c;">
+            ${item.pricing.display}
+          </span>`
         : '';
       // Specs
       let specsArr = [];
@@ -260,7 +262,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       const specs = specsArr.join(' | ');
       // WhatsApp button
-      const whatsappBtn = whatsappNumber ? `<a href='https://wa.me/${whatsappNumber}' target='_blank' class='btn btn-success'><i class='bi bi-whatsapp'></i> Contact WhatsApp</a>` : '';
+      const whatsappBtn = whatsappNumber ? `<a href='https://wa.me/${whatsappNumber}' target='_blank' class='btn btn-success'><i class='bi bi-whatsapp'></i> WhatsApp</a>` : '';
       div.innerHTML = `
         <div class="row g-3 align-items-center">
           <div class="col-12 col-md-3 col-lg-3">

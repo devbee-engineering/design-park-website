@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Design Park</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Design Park</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Strategy
   * Template URL: https://bootstrapmade.com/strategy-bootstrap-agency-template/
   * Updated: May 09 2025 with Bootstrap v5.3.6
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="service-details-page">
+  <body class="service-details-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+        style="background-color: azure"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <img
+            src="assets/img/logo.png"
+            alt="Design Park Logo"
+            class="logo-img"
+            style="height: 48px"
+          />
+        </a>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between" style="background-color: azure;">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <img src="assets/img/logo.png" alt="Design Park Logo" class="logo-img" style="height:48px;">
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" style="color: black;">Home</a></li>
-          <li><a href="index.html#about" style="color: black;">About</a></li>
-          <li><a href="index.html#services" style="color: black;">Services</a></li>
-          <!-- <li><a href="index.html#portfolio">Portfolio</a></li> -->
-          <!-- <li><a href="#team">Team</a></li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" style="color: black">Home</a></li>
+            <li><a href="index.html#about" style="color: black">About</a></li>
+            <li>
+              <a href="index.html#services" style="color: black">Services</a>
+            </li>
+            <!-- <li><a href="index.html#portfolio">Portfolio</a></li> -->
+            <!-- <li><a href="#team">Team</a></li> -->
+            <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -71,317 +93,358 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <!-- <a class="btn-getstarted" href="#about">Get Started</a> -->
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade">
-      <div class="container position-relative">
-        <h1>Service Details</h1>
-        <p>We deliver expertly crafted solutions that blend creativity with precision—ensuring your brand leaves <br> a lasting impression and stands out in a competitive market.</p>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
-          </ol>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
+
+        <!-- <a class="btn-getstarted" href="#about">Get Started</a> -->
       </div>
-    </div><!-- End Page Title -->
+    </header>
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-      <div class="row gy-5">
-
-  <!-- Sidebar FIRST (left side) -->
-  <div class="col-lg-4 order-lg-1 order-2">
-    <div class="service-sidebar" data-aos="fade-right">
-      <div class="service-features-list" data-aos="fade-up" data-aos-delay="200">
-        <h4>What We Offer</h4>
-        <ul id="sidebar-features-list">
-          <!-- Sidebar features will be rendered dynamically -->
-        </ul>
-      </div>
-
-      <div class="contact-info" data-aos="fade-up" data-aos-delay="400">
-        <h4>Have Questions?</h4>
-        <div class="contact-method">
-          <i class="bi bi-telephone-fill"></i>
-          <div>
-            <span>Call Us Now</span>
-            <p>+1 (803) 952-3845</p>
-          </div>
-        </div>
-        <div class="contact-method">
-          <i class="bi bi-envelope-fill"></i>
-          <div>
-            <span>Email Us</span>
-            <p>marketing@example.com</p>
-          </div>
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title dark-background" data-aos="fade">
+        <div class="container position-relative">
+          <h1>Service Details</h1>
+          <p>
+            We deliver expertly crafted solutions that blend creativity with
+            precision—ensuring your brand leaves <br />
+            a lasting impression and stands out in a competitive market.
+          </p>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Service Details</li>
+            </ol>
+          </nav>
         </div>
       </div>
-    </div>
-  </div>
+      <!-- End Page Title -->
 
-  <!-- Main content SECOND (right side) -->
-   <div class="col-lg-8 order-lg-2 order-2">
-    <!-- Dynamic Card Details Area -->
-   
-    <!-- Toolbar (optional, matches the screenshot) -->
-    <div class="product-toolbar d-flex justify-content-between align-items-center mb-3">
-      <div class="view-switch d-flex gap-2">
-        <button class="btn btn-light btn-sm active" aria-label="List view">
-          <i class="bi bi-list-ul"></i>
-        </button>
-        <button class="btn btn-light btn-sm" aria-label="Grid view">
-          <i class="bi bi-grid-3x3-gap"></i>
-        </button>
-      </div>
-      <div class="show-count d-flex align-items-center gap-2">
-        <span class="text-muted small">5 Item(s)</span>
-        <label class="text-muted small mb-0">SHOW:</label>
-        <select class="form-select form-select-sm" style="width: 80px;">
-          <option selected>20</option>
-          <option>50</option>
-          <option>100</option>
-        </select>
-      </div>
-    </div>
+      <!-- Service Details Section -->
+      <section id="service-details" class="service-details section">
+        <div class="container" data-aos="fade-up" data-aos-delay="0">
+          <div class="row gy-5">
+            <!-- Sidebar FIRST (left side) -->
+            <div class="col-lg-4 order-lg-1 order-2">
+              <div class="service-sidebar" data-aos="fade-right">
+                <div
+                  class="service-features-list"
+                  data-aos="fade-up"
+                  data-aos-delay="0"
+                >
+                  <h4>What We Offer</h4>
+                  <ul id="sidebar-features-list">
+                    <!-- Sidebar features will be rendered dynamically -->
+                  </ul>
+                </div>
 
-    <!-- Product List -->
-    <div class="product-list">
-      <!-- Products will be rendered here dynamically -->
-    </div>
-  </div>
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="0">
+                  <h4>Have Questions?</h4>
+                  <div class="contact-method">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                      <span>Call Us Now</span>
+                      <p>+1 (803) 952-3845</p>
+                    </div>
+                  </div>
+                  <div class="contact-method">
+                    <i class="bi bi-envelope-fill"></i>
+                    <div>
+                      <span>Email Us</span>
+                      <p>marketing@example.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      <div class="service-gallery" data-aos="fade-up" data-aos-delay="300">
-        <h3>Our Marketing Portfolio</h3>
-        <div class="service-details-slider swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 800,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": 1,
-              "spaceBetween": 30,
-              "breakpoints": {
-                "768": {
-                  "slidesPerView": 2
+            <!-- Main content SECOND (right side) -->
+            <div class="col-lg-8 order-lg-2 order-2">
+              <!-- Dynamic Card Details Area -->
+
+              <!-- Toolbar (optional, matches the screenshot) -->
+              <div
+                class="product-toolbar d-flex justify-content-between align-items-center mb-3"
+              >
+                <div class="view-switch d-flex gap-2">
+                  <button
+                    class="btn btn-light btn-sm active"
+                    aria-label="List view"
+                  >
+                    <i class="bi bi-list-ul"></i>
+                  </button>
+                  <button class="btn btn-light btn-sm" aria-label="Grid view">
+                    <i class="bi bi-grid-3x3-gap"></i>
+                  </button>
+                </div>
+                <div class="show-count d-flex align-items-center gap-2">
+                  <span class="text-muted small">5 Item(s)</span>
+                  <label class="text-muted small mb-0">SHOW:</label>
+                  <select
+                    class="form-select form-select-sm"
+                    style="width: 80px"
+                  >
+                    <option selected>20</option>
+                    <option>50</option>
+                    <option>100</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Product List -->
+              <div class="product-list">
+                <!-- Products will be rendered here dynamically -->
+              </div>
+            </div>
+
+            <!-- <div class="service-gallery" data-aos="fade-up" data-aos-delay="300">
+            <h3>Our Marketing Portfolio</h3>
+            <div class="service-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 800,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": 1,
+                  "spaceBetween": 30,
+                  "breakpoints": {
+                    "768": {
+                      "slidesPerView": 2
+                    }
+                  },
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
                 }
-              },
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="portfolio-item">
-                <img src="assets/img/others/image.jpg" alt="" class="img-fluid" loading="lazy">
-                <div class="portfolio-info">
-                  <h5>Social Media Campaign</h5>
-                  <p>Increased engagement by 187%</p>
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="portfolio-item">
+                    <img src="assets/img/others/image.jpg" alt="" class="img-fluid" loading="lazy">
+                    <div class="portfolio-info">
+                      <h5>Social Media Campaign</h5>
+                      <p>Increased engagement by 187%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="portfolio-item">
+                    <img src="assets/img/others/image.jpg" alt="" class="img-fluid" loading="lazy">
+                    <div class="portfolio-info">
+                      <h5>SEO Optimization</h5>
+                      <p>Ranked #1 for target keywords</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="portfolio-item">
+                    <img src="assets/img/others/image.jpg" alt="" class="img-fluid" loading="lazy">
+                    <div class="portfolio-info">
+                      <h5>Content Marketing</h5>
+                      <p>200% increase in organic traffic</p>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-slide">
-              <div class="portfolio-item">
-                <img src="assets/img/others/image.jpg" alt="" class="img-fluid" loading="lazy">
-                <div class="portfolio-info">
-                  <h5>SEO Optimization</h5>
-                  <p>Ranked #1 for target keywords</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="portfolio-item">
-                <img src="assets/img/others/image.jpg" alt="" class="img-fluid" loading="lazy">
-                <div class="portfolio-info">
-                  <h5>Content Marketing</h5>
-                  <p>200% increase in organic traffic</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Service Details Section -->
-
-  </main>
-
-  <footer id="footer" class="footer">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Strategy</span>
-          </a>
-          <p>We combine innovation and expertise to deliver high-impact marketing materials—crafted to engage your audience and elevate your brand’s visibility across all platforms.</p>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div> -->
           </div>
         </div>
+      </section>
+      <!-- /Service Details Section -->
+    </main>
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About us</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Strategy</span>
+            </a>
+            <p>
+              We combine innovation and expertise to deliver high-impact
+              marketing materials—crafted to engage your audience and elevate
+              your brand’s visibility across all platforms.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About us</a></li>
+              <li><a href="index.html#services">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="service-details.html?id=0">Visiting Card</a></li>
+              <li><a href="service-details.html?id=1">Wedding Cards</a></li>
+              <li><a href="service-details.html?id=2">Calendars</a></li>
+              <li><a href="service-details.html?id=3">Brochures</a></li>
+              <li><a href="service-details.html?id=3">Stationeries</a></li>
+              <li><a href="service-details.html?id=4">Colour Print</a></li>
+              <li>
+                <a href="service-details.html?id=5">All Types of Stickers</a>
+              </li>
+              <li><a href="#">Special Boards</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Contact Us</h4>
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p>United States</p>
+            <p class="mt-4">
+              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+            </p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
         </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="service-details.html?id=0">Visiting Card</a></li>
-            <li><a href="service-details.html?id=1">Wedding Cards</a></li>
-            <li><a href="service-details.html?id=2">Calendars</a></li>
-            <li><a href="service-details.html?id=3">Brochures</a></li>
-            <li><a href="service-details.html?id=3">Stationeries</a></li>
-            <li><a href="service-details.html?id=4">Colour Print</a></li>
-            <li><a href="service-details.html?id=5">All Types of Stickers</a></li>
-            <li><a href="#">Special Boards</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
-        </div>
-
       </div>
-    </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">DESIGN PARK</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://dev-bee.com/">Dev-Bee Inc</a>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">DESIGN PARK</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://dev-bee.com/">Dev-Bee Inc</a>
+        </div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <!-- === PRODUCTS LISTING RENDERER (drop-in) === -->
+    <script>
+      /* helpers */
+      const $ = (sel, root = document) => root.querySelector(sel);
+      const $$ = (sel, root = document) =>
+        Array.from(root.querySelectorAll(sel));
+      const esc = (v) => String(v ?? "");
 
-  <!-- === PRODUCTS LISTING RENDERER (drop-in) === -->
-  <script>
-  /* helpers */
-  const $ = (sel, root = document) => root.querySelector(sel);
-  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
-  const esc = (v) => String(v ?? "");
+      /* === RIGHT COLUMN: PRODUCTS LIST (from productsListing) === */
+      function renderProductsToolbar(listing) {
+        const bar = document.querySelector(".product-toolbar");
+        if (!bar || !listing?.toolbar) return;
 
-  /* === RIGHT COLUMN: PRODUCTS LIST (from productsListing) === */
-  function renderProductsToolbar(listing) {
-    const bar = document.querySelector(".product-toolbar");
-    if (!bar || !listing?.toolbar) return;
+        const {
+          totalLabel,
+          pageSizeOptions = [20, 50, 100],
+          defaultPageSize = 20,
+          defaultView = "list",
+        } = listing.toolbar;
 
-    const { totalLabel, pageSizeOptions = [20, 50, 100], defaultPageSize = 20, defaultView = "list" } = listing.toolbar;
+        const totalSpan = bar.querySelector(".text-muted.small");
+        if (totalSpan) totalSpan.textContent = esc(totalLabel);
 
-    const totalSpan = bar.querySelector(".text-muted.small");
-    if (totalSpan) totalSpan.textContent = esc(totalLabel);
+        const select = bar.querySelector("select");
+        if (select) {
+          select.innerHTML = "";
+          pageSizeOptions.forEach((n) => {
+            const opt = document.createElement("option");
+            opt.value = String(n);
+            opt.textContent = String(n);
+            if (n === defaultPageSize) opt.selected = true;
+            select.appendChild(opt);
+          });
+        }
 
-    const select = bar.querySelector("select");
-    if (select) {
-      select.innerHTML = "";
-      pageSizeOptions.forEach((n) => {
-        const opt = document.createElement("option");
-        opt.value = String(n);
-        opt.textContent = String(n);
-        if (n === defaultPageSize) opt.selected = true;
-        select.appendChild(opt);
-      });
-    }
+        const [listBtn, gridBtn] = $$(".view-switch button", bar);
+        if (listBtn && gridBtn) {
+          listBtn.classList.toggle("active", defaultView === "list");
+          gridBtn.classList.toggle("active", defaultView === "grid");
+          listBtn.addEventListener("click", () => {
+            listBtn.classList.add("active");
+            gridBtn.classList.remove("active");
+            document.body.classList.remove("grid-view");
+          });
+          gridBtn.addEventListener("click", () => {
+            gridBtn.classList.add("active");
+            listBtn.classList.remove("active");
+            document.body.classList.add("grid-view");
+          });
+        }
+      }
 
-    const [listBtn, gridBtn] = $$(".view-switch button", bar);
-    if (listBtn && gridBtn) {
-      listBtn.classList.toggle("active", defaultView === "list");
-      gridBtn.classList.toggle("active", defaultView === "grid");
-      listBtn.addEventListener("click", () => {
-        listBtn.classList.add("active");
-        gridBtn.classList.remove("active");
-        document.body.classList.remove("grid-view");
-      });
-      gridBtn.addEventListener("click", () => {
-        gridBtn.classList.add("active");
-        listBtn.classList.remove("active");
-        document.body.classList.add("grid-view");
-      });
-    }
-  }
+      function productCardHTML(p, waDefault) {
+        const sep = `<span class="sep">|</span>`;
+        const gst = p.pricing?.gstInclusive
+          ? `<span class="gst-badge">GST Inclusive</span>`
+          : "";
+        const printingChunk = p.specs?.printing
+          ? `${esc(p.specs.printing)} ${esc(p.specs.printingLabel)}`
+          : esc(p.specs.printingLabel);
+        const price = esc(p.pricing?.display ?? "");
+        const waNumber = p.actions?.whatsAppNumber || waDefault;
 
-  function productCardHTML(p, waDefault) {
-    const sep = `<span class="sep">|</span>`;
-    const gst = p.pricing?.gstInclusive ? `<span class="gst-badge">GST Inclusive</span>` : "";
-    const printingChunk = p.specs?.printing ? `${esc(p.specs.printing)} ${esc(p.specs.printingLabel)}` : esc(p.specs.printingLabel);
-    const price = esc(p.pricing?.display ?? "");
-    const waNumber = p.actions?.whatsAppNumber || waDefault;
+        const cartBtn = p.actions?.cartEnabled
+          ? `<button class="btn btn-outline-secondary btn-sm me-2 d-none d-md-inline-flex" aria-label="Add to cart"><i class="bi bi-basket2 me-1"></i></button>`
+          : "";
 
-    const cartBtn = p.actions?.cartEnabled
-      ? `<button class="btn btn-outline-secondary btn-sm me-2 d-none d-md-inline-flex" aria-label="Add to cart"><i class="bi bi-basket2 me-1"></i></button>`
-      : "";
+        const waBtn = waNumber
+          ? `<a href="https://wa.me/${esc(
+              waNumber
+            )}" target="_blank" rel="noopener" class="btn btn-success btn-sm"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a>`
+          : "";
 
-    const waBtn = waNumber
-      ? `<a href="https://wa.me/${esc(waNumber)}" target="_blank" rel="noopener" class="btn btn-success btn-sm"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a>`
-      : "";
+        const learnMore = p.actions?.learnMoreUrl
+          ? `<a href="${esc(
+              p.actions.learnMoreUrl
+            )}" class="small text-decoration-underline">Learn More</a>`
+          : "";
 
-    const learnMore = p.actions?.learnMoreUrl ? `<a href="${esc(p.actions.learnMoreUrl)}" class="small text-decoration-underline">Learn More</a>` : "";
-
-    return `
+        return `
     <div class="product-item" data-id="${esc(p.id)}">
       <div class="row g-3 align-items-center">
         <div class="col-12 col-md-3 col-lg-3">
-          <a href="#"><img src="${esc(p.image)}" class="img-fluid product-thumb" alt="${esc(p.title)}"></a>
+          <a href="#"><img src="${esc(
+            p.image
+          )}" class="img-fluid product-thumb" alt="${esc(p.title)}"></a>
         </div>
         <div class="col-12 col-md-6 col-lg-6">
           <h5 class="mb-2 product-title">${esc(p.title)}</h5>
@@ -393,7 +456,9 @@
             ${esc(p.specs.lamination)} ${sep}
             File Upload Size – ${esc(p.specs.fileUploadSize)}
           </p>
-          <p class="mb-1 text-muted small"><strong>Delivery :</strong> ${esc(p.specs.delivery)}</p>
+          <p class="mb-1 text-muted small"><strong>Delivery :</strong> ${esc(
+            p.specs.delivery
+          )}</p>
           ${learnMore}
         </div>
         <div class="col-12 col-md-3 col-lg-3">
@@ -407,352 +472,381 @@
         </div>
       </div>
     </div>`;
-  }
-
-  function renderProductsList(listing) {
-    const host = document.querySelector(".product-list");
-    if (!host || !listing) return;
-
-    const items = (listing.items || []).filter((x) => !x.hidden);
-    const select = document.querySelector(".product-toolbar select");
-    const pageSize = Number(select?.value || listing.toolbar?.defaultPageSize || items.length);
-    const toRender = items.slice(0, Math.max(1, pageSize));
-
-    host.innerHTML = toRender.map((p) => productCardHTML(p, listing.whatsAppDefaultNumber)).join("");
-
-    // (Re)bind select change
-    if (select && !select._bound) {
-      select._bound = true;
-      select.addEventListener("change", () => renderProductsList(listing));
-    }
-  }
-
-  /* === CALL THIS INSIDE YOUR EXISTING fetch().then(json => { ... }) === */
-  function mountProductsFromJSON(json) {
-    const listing = json.productsListing;
-    if (!listing) return;
-    renderProductsToolbar(listing);
-    renderProductsList(listing);
-  }
-  </script>
-  <script>
-(function () {
-  const $$ = (sel, root = document) => root.querySelector(sel);
-  const $$$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
-  const esc = (s) => String(s ?? "");
-
-  const telHref = (digits) => `https://wa.me/${digits}`;
-  const money = (display) => esc(display);
-
- function renderSidebarFeatures(sidebar) {
-  const ul = document.getElementById("sidebar-features-list");
-  if (!ul) return;
-  ul.innerHTML = "";
-
-  const features = sidebar.features || [];
-  features.forEach((f, idx) => {
-    const li = document.createElement("li");
-    li.classList.add("sidebar-feature-item");
-    // Unique identifiers for click detection
-    li.dataset.featureId = (f.id != null ? String(f.id) : String(idx));
-    li.dataset.featureKey = (f.key || f.title || `feature-${idx}`)
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-");
-
-    if (idx === 0) li.classList.add("active"); // first active
-    li.innerHTML = `
-      <i class="bi ${esc(f.icon)}"></i>
-      <div>
-        <h5>${esc(f.title)}</h5>
-        <p>${esc(f.description)}</p>
-      </div>
-    `;
-    ul.appendChild(li);
-  });
-}
-
-
-  function renderSidebarContact(sidebar) {
-    const wrap = $$(".contact-info");
-    if (!wrap) return;
-
-    const title = wrap.querySelector("h4") || document.createElement("h4");
-    title.textContent = sidebar.contactTitle || "Have Questions?";
-
-    // Clear existing contact-method blocks
-    $$$(".contact-method", wrap).forEach((n) => n.remove());
-
-    // Phone
-    const phoneDiv = document.createElement("div");
-    phoneDiv.className = "contact-method";
-    phoneDiv.innerHTML = `
-      <i class="bi bi-telephone-fill"></i>
-      <div>
-        <span>${esc(sidebar?.contact?.phoneLabel)}</span>
-        <p><a href="tel:${esc(sidebar?.contact?.phoneLink)}">${esc(sidebar?.contact?.phoneDisplay)}</a></p>
-      </div>
-    `;
-
-    // Email
-    const emailDiv = document.createElement("div");
-    emailDiv.className = "contact-method";
-    emailDiv.innerHTML = `
-      <i class="bi bi-envelope-fill"></i>
-      <div>
-        <span>${esc(sidebar?.contact?.emailLabel)}</span>
-        <p><a href="mailto:${esc(sidebar?.contact?.emailLink)}">${esc(sidebar?.contact?.emailDisplay)}</a></p>
-      </div>
-    `;
-
-    if (!wrap.contains(title)) wrap.prepend(title);
-    wrap.appendChild(phoneDiv);
-    wrap.appendChild(emailDiv);
-  }
-
-  function renderToolbar(toolbar) {
-    const bar = $$(".product-toolbar");
-    if (!bar) return;
-
-    // Total label
-    const totalSpan = bar.querySelector(".text-muted.small");
-    if (totalSpan) totalSpan.textContent = toolbar.totalLabel || "";
-
-    // SHOW: select
-    const select = bar.querySelector("select");
-    if (select) {
-      select.innerHTML = "";
-      (toolbar.pageSizeOptions || [20, 50, 100]).forEach((n) => {
-        const opt = document.createElement("option");
-        opt.value = String(n);
-        opt.textContent = String(n);
-        if (String(n) === String(toolbar.defaultPageSize)) opt.selected = true;
-        select.appendChild(opt);
-      });
-    }
-
-    // View buttons (optional)
-    const viewBtns = $$(".view-switch", bar);
-    if (viewBtns) {
-      const [listBtn, gridBtn] = $$$("button", viewBtns);
-      if (listBtn && gridBtn) {
-        listBtn.classList.toggle("active", (toolbar.defaultView || "list") === "list");
-        gridBtn.classList.toggle("active", (toolbar.defaultView || "list") === "grid");
       }
-    }
-  }
 
-  function productCard(p) {
-    const gstBadge = p.pricing.gstInclusive ? `<span class="gst-badge">GST Inclusive</span>` : "";
-    const sep = `<span class="sep">|</span>`;
-    const learnMore = p.actions.learnMoreUrl ? `<a href="${esc(p.actions.learnMoreUrl)}" class="small text-decoration-underline">Learn More</a>` : "";
-    const cartBtn = "";
-    const wa = p.actions.whatsAppNumber
-      ? `<a href="${telHref(p.actions.whatsAppNumber)}" target="_blank" rel="noopener" class="btn btn-success btn-sm"><i class="bi bi-whatsapp me-1"></i> Contact WhatsApp</a>`
-      : "";
+      function renderProductsList(listing) {
+        const host = document.querySelector(".product-list");
+        if (!host || !listing) return;
 
-    // Single vs double column spec text — matches screenshot exactly
-    const printingChunk = p.specs.printing
-      ? `${esc(p.specs.printing)} ${esc(p.specs.printingLabel)}`
-      : esc(p.specs.printingLabel);
+        const items = (listing.items || []).filter((x) => !x.hidden);
+        const select = document.querySelector(".product-toolbar select");
+        const pageSize = Number(
+          select?.value || listing.toolbar?.defaultPageSize || items.length
+        );
+        const toRender = items.slice(0, Math.max(1, pageSize));
 
-    return `
-      <div class="product-item" data-product-id="${esc(p.id)}">
-        <div class="row g-3 align-items-center">
-          <div class="col-12 col-md-3 col-lg-3">
-            <a href="#"><img src="${esc(p.image)}" class="img-fluid product-thumb" alt="${esc(p.title)}"></a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-6">
-            <h5 class="mb-2 product-title">${esc(p.title)}</h5>
-            <p class="mb-1 product-attrs">
-              ${gstBadge}
-              ${sep}
-              <strong>Qty:</strong> ${esc(p.specs.qty)}
-              ${sep}
-              ${esc(p.specs.substrate)}
-              ${sep}
-              ${printingChunk}
-              ${sep}
-              ${esc(p.specs.lamination)}
-              ${sep}
-              File Upload Size – ${esc(p.specs.fileUploadSize)}
-            </p>
-            <p class="mb-1 text-muted small"><strong>Delivery :</strong> ${esc(p.specs.delivery)}</p>
-            ${learnMore}
-          </div>
-          <div class="col-12 col-md-3 col-lg-3">
-            <div class="d-flex d-md-block justify-content-between align-items-center h-100">
-              <div class="text-end text-md-end">
-                <div class="product-price">GST Inclusive Rs ${money(p.pricing.display).replace(/[^\d.]/g, '')}</div>
-              </div>
-              <div class="mt-0 mt-md-2 text-end">
-                ${cartBtn}
-                ${wa}
-              </div>
+        host.innerHTML = toRender
+          .map((p) => productCardHTML(p, listing.whatsAppDefaultNumber))
+          .join("");
+
+        // (Re)bind select change
+        if (select && !select._bound) {
+          select._bound = true;
+          select.addEventListener("change", () => renderProductsList(listing));
+        }
+      }
+
+      /* === CALL THIS INSIDE YOUR EXISTING fetch().then(json => { ... }) === */
+      function mountProductsFromJSON(json) {
+        const listing = json.productsListing;
+        if (!listing) return;
+        renderProductsToolbar(listing);
+        renderProductsList(listing);
+      }
+    </script>
+    <script>
+      (function () {
+        const $$ = (sel, root = document) => root.querySelector(sel);
+        const $$$ = (sel, root = document) =>
+          Array.from(root.querySelectorAll(sel));
+        const esc = (s) => String(s ?? "");
+
+        const telHref = (digits) => `https://wa.me/${digits}`;
+        const money = (display) => esc(display);
+
+        function renderSidebarFeatures(sidebar) {
+          const ul = document.getElementById("sidebar-features-list");
+          if (!ul) return;
+          ul.innerHTML = "";
+
+          const features = sidebar.features || [];
+          features.forEach((f, idx) => {
+            const li = document.createElement("li");
+            li.classList.add("sidebar-feature-item");
+            // Unique identifiers for click detection
+            li.dataset.featureId = f.id != null ? String(f.id) : String(idx);
+            li.dataset.featureKey = (f.key || f.title || `feature-${idx}`)
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, "-");
+
+            if (idx === 0) li.classList.add("active"); // first active
+            li.innerHTML = `
+            <i class="bi ${esc(f.icon)}"></i>
+            <div>
+              <h5>${esc(f.title)}</h5>
+              <p>${esc(f.description)}</p>
             </div>
-          </div>
-        </div>
-      </div>
-    `;
-  }
-
-  function renderProducts(products, pageSize) {
-    const list = $$(".product-list");
-    if (!list) return;
-
-    const visible = products.filter((p) => !p.hidden);
-    const limit = pageSize ? Math.max(1, Number(pageSize)) : visible.length;
-
-    list.innerHTML = visible.slice(0, limit).map(productCard).join("");
-  }
-
-  function bindToolbar(products, toolbar) {
-    const bar = $$(".product-toolbar");
-    if (!bar) return;
-
-    const select = bar.querySelector("select");
-    if (select) {
-      select.addEventListener("change", () => {
-        renderProducts(products, select.value);
-      });
-    }
-
-    const viewSwitch = $$(".view-switch", bar);
-    if (viewSwitch) {
-      const [listBtn, gridBtn] = $$$("button", viewSwitch);
-      if (listBtn && gridBtn) {
-        listBtn.addEventListener("click", () => {
-          listBtn.classList.add("active");
-          gridBtn.classList.remove("active");
-          document.body.classList.remove("grid-view");
-        });
-        gridBtn.addEventListener("click", () => {
-          gridBtn.classList.add("active");
-          listBtn.classList.remove("active");
-          document.body.classList.add("grid-view");
-        });
-      }
-    }
-  }
-
-  function renderGallery(gallery) {
-    // Replace static slides with JSON slides (keeps your Swiper config intact)
-    const wrapper = $$(".service-gallery .swiper-wrapper");
-    const title = $$(".service-gallery h3");
-    if (!wrapper) return;
-
-    if (title) title.textContent = gallery.title || "Gallery";
-    wrapper.innerHTML = "";
-    (gallery.slides || []).forEach((s) => {
-      const slide = document.createElement("div");
-      slide.className = "swiper-slide";
-      slide.innerHTML = `
-        <div class="portfolio-item">
-          <img src="${esc(s.image)}" alt="" class="img-fluid" loading="lazy">
-          <div class="portfolio-info">
-            <h5>${esc(s.title)}</h5>
-            <p>${esc(s.description)}</p>
-          </div>
-        </div>`;
-      wrapper.appendChild(slide);
-    });
-
-    // If you need to (re)initialize Swiper when replacing slides dynamically,
-    // you can re-run your existing init code here or trigger a custom event.
-  }
-
-  function renderPageHeader(page) {
-    const pageTitle = $$(".page-title .container h1");
-    const pageIntro = $$(".page-title .container p");
-    if (pageTitle) pageTitle.textContent = esc(page.title);
-    if (pageIntro) pageIntro.innerHTML = esc(page.intro);
-  }
-
-  // Boot
-    fetch("assets/data/service-details.json?_=" + Date.now())
-      .then((r) => r.json())
-      .then((data) => {
-        // Header
-        renderPageHeader(data.page || {});
-
-        // Get service ID from URL (?id=2)
-        function getServiceIdFromURL() {
-          const params = new URLSearchParams(window.location.search);
-          return params.get('id');
-        }
-        const serviceId = getServiceIdFromURL();
-        let service = data.services?.[0];
-        if (serviceId) {
-          service = data.services?.find(s => String(s.id) === String(serviceId)) || service;
-        }
-
-        // Render sidebar features
-        renderSidebarFeatures(service?.sidebar?.featuresList || {});
-        // renderSidebarContact(service?.sidebar?.actionCard || {}); // Commented out - using static HTML instead
-
-        // Initial card details (first feature)
-        function updateCardDetails(feature) {
-          if (!feature?.details) return;
-          const area = document.getElementById('card-details-area');
-          area.classList.add('fade-out');
-          setTimeout(() => {
-            document.getElementById('card-details-image').src = feature.details.image;
-            document.getElementById('card-details-title').textContent = feature.details.title;
-            document.getElementById('card-details-description').textContent = feature.details.description;
-            area.classList.remove('fade-out');
-          }, 400);
-        }
-
-        const features = service?.sidebar?.featuresList?.features || [];
-        if (features.length) updateCardDetails(features[0]);
-
-        // Sidebar click handler with robust data lookup
-        const listEl = document.getElementById('sidebar-features-list');
-        if (listEl) {
-          listEl.addEventListener('click', (e) => {
-            const li = e.target.closest('.sidebar-feature-item');
-            if (!li) return;
-
-            // Toggle active state
-            listEl.querySelectorAll('.sidebar-feature-item').forEach(el => el.classList.remove('active'));
-            li.classList.add('active');
-
-            // Resolve the feature via data-feature-id
-            const id = li.dataset.featureId;
-            let feature = features.find(f => String(f.id) === String(id));
-
-            // Fallback: treat id as index if no explicit ids in JSON
-            if (!feature) {
-              const idx = Number(id);
-              if (!Number.isNaN(idx)) feature = features[idx];
-            }
-
-            if (feature) updateCardDetails(feature);
+          `;
+            ul.appendChild(li);
           });
         }
 
-        // Toolbar & products
-        renderToolbar(data.toolbar || {});
-        renderProducts(data.products || [], (data.toolbar || {}).defaultPageSize);
-        bindToolbar(data.products || [], data.toolbar || {});
+        function renderSidebarContact(sidebar) {
+          const wrap = $$(".contact-info");
+          if (!wrap) return;
 
-        // Gallery
-        renderGallery(data.gallery || {});
+          const title =
+            wrap.querySelector("h4") || document.createElement("h4");
+          title.textContent = sidebar.contactTitle || "Have Questions?";
 
-        // === MOUNT PRODUCTS LISTING DROP-IN ===
-        mountProductsFromJSON(data);
-            })
-            .catch((err) => {
-        console.error("Failed to load service-details.json", err);
+          // Clear existing contact-method blocks
+          $$$(".contact-method", wrap).forEach((n) => n.remove());
+
+          // Phone
+          const phoneDiv = document.createElement("div");
+          phoneDiv.className = "contact-method";
+          phoneDiv.innerHTML = `
+            <i class="bi bi-telephone-fill"></i>
+            <div>
+              <span>${esc(sidebar?.contact?.phoneLabel)}</span>
+              <p><a href="tel:${esc(sidebar?.contact?.phoneLink)}">${esc(
+            sidebar?.contact?.phoneDisplay
+          )}</a></p>
+            </div>
+          `;
+
+          // Email
+          const emailDiv = document.createElement("div");
+          emailDiv.className = "contact-method";
+          emailDiv.innerHTML = `
+            <i class="bi bi-envelope-fill"></i>
+            <div>
+              <span>${esc(sidebar?.contact?.emailLabel)}</span>
+              <p><a href="mailto:${esc(sidebar?.contact?.emailLink)}">${esc(
+            sidebar?.contact?.emailDisplay
+          )}</a></p>
+            </div>
+          `;
+
+          if (!wrap.contains(title)) wrap.prepend(title);
+          wrap.appendChild(phoneDiv);
+          wrap.appendChild(emailDiv);
+        }
+
+        function renderToolbar(toolbar) {
+          const bar = $$(".product-toolbar");
+          if (!bar) return;
+
+          // Total label
+          const totalSpan = bar.querySelector(".text-muted.small");
+          if (totalSpan) totalSpan.textContent = toolbar.totalLabel || "";
+
+          // SHOW: select
+          const select = bar.querySelector("select");
+          if (select) {
+            select.innerHTML = "";
+            (toolbar.pageSizeOptions || [20, 50, 100]).forEach((n) => {
+              const opt = document.createElement("option");
+              opt.value = String(n);
+              opt.textContent = String(n);
+              if (String(n) === String(toolbar.defaultPageSize))
+                opt.selected = true;
+              select.appendChild(opt);
             });
+          }
+
+          // View buttons (optional)
+          const viewBtns = $$(".view-switch", bar);
+          if (viewBtns) {
+            const [listBtn, gridBtn] = $$$("button", viewBtns);
+            if (listBtn && gridBtn) {
+              listBtn.classList.toggle(
+                "active",
+                (toolbar.defaultView || "list") === "list"
+              );
+              gridBtn.classList.toggle(
+                "active",
+                (toolbar.defaultView || "list") === "grid"
+              );
+            }
+          }
+        }
+
+        function productCard(p) {
+          const gstBadge = p.pricing.gstInclusive
+            ? `<span class="gst-badge">GST Inclusive</span>`
+            : "";
+          const sep = `<span class="sep">|</span>`;
+          const learnMore = p.actions.learnMoreUrl
+            ? `<a href="${esc(
+                p.actions.learnMoreUrl
+              )}" class="small text-decoration-underline">Learn More</a>`
+            : "";
+          const cartBtn = "";
+          const wa = p.actions.whatsAppNumber
+            ? `<a href="${telHref(
+                p.actions.whatsAppNumber
+              )}" target="_blank" rel="noopener" class="btn btn-success btn-sm"><i class="bi bi-whatsapp me-1"></i> Contact WhatsApp</a>`
+            : "";
+
+          // Single vs double column spec text — matches screenshot exactly
+          const printingChunk = p.specs.printing
+            ? `${esc(p.specs.printing)} ${esc(p.specs.printingLabel)}`
+            : esc(p.specs.printingLabel);
+
+          return `
+            <div class="product-item" data-product-id="${esc(p.id)}">
+              <div class="row g-3 align-items-center">
+                <div class="col-12 col-md-3 col-lg-3">
+                  <a href="#"><img src="${esc(
+                    p.image
+                  )}" class="img-fluid product-thumb" alt="${esc(p.title)}"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <h5 class="mb-2 product-title">${esc(p.title)}</h5>
+                  <p class="mb-1 product-attrs">
+                    ${gstBadge}
+                    ${sep}
+                    <strong>Qty:</strong> ${esc(p.specs.qty)}
+                    ${sep}
+                    ${esc(p.specs.substrate)}
+                    ${sep}
+                    ${printingChunk}
+                    ${sep}
+                    ${esc(p.specs.lamination)}
+                    ${sep}
+                    File Upload Size – ${esc(p.specs.fileUploadSize)}
+                  </p>
+                  <p class="mb-1 text-muted small"><strong>Delivery :</strong> ${esc(
+                    p.specs.delivery
+                  )}</p>
+                  ${learnMore}
+                </div>
+                <div class="col-12 col-md-3 col-lg-3">
+                  <div class="d-flex d-md-block justify-content-between align-items-center h-100">
+                    <div class="text-end text-md-end">
+                      <div class="product-price">GST Inclusive Rs ${money(
+                        p.pricing.display
+                      ).replace(/[^\d.]/g, "")}</div>
+                    </div>
+                    <div class="mt-0 mt-md-2 text-end">
+                      ${cartBtn}
+                      ${wa}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `;
+        }
+
+        function renderProducts(products, pageSize) {
+          const list = $$(".product-list");
+          if (!list) return;
+
+          const visible = products.filter((p) => !p.hidden);
+          const limit = pageSize
+            ? Math.max(1, Number(pageSize))
+            : visible.length;
+
+          list.innerHTML = visible.slice(0, limit).map(productCard).join("");
+        }
+
+        function bindToolbar(products, toolbar) {
+          const bar = $$(".product-toolbar");
+          if (!bar) return;
+
+          const select = bar.querySelector("select");
+          if (select) {
+            select.addEventListener("change", () => {
+              renderProducts(products, select.value);
+            });
+          }
+
+          const viewSwitch = $$(".view-switch", bar);
+          if (viewSwitch) {
+            const [listBtn, gridBtn] = $$$("button", viewSwitch);
+            if (listBtn && gridBtn) {
+              listBtn.addEventListener("click", () => {
+                listBtn.classList.add("active");
+                gridBtn.classList.remove("active");
+                document.body.classList.remove("grid-view");
+              });
+              gridBtn.addEventListener("click", () => {
+                gridBtn.classList.add("active");
+                listBtn.classList.remove("active");
+                document.body.classList.add("grid-view");
+              });
+            }
+          }
+        }
+
+        function renderGallery(gallery) {
+          // Replace static slides with JSON slides (keeps your Swiper config intact)
+          const wrapper = $$(".service-gallery .swiper-wrapper");
+          const title = $$(".service-gallery h3");
+          if (!wrapper) return;
+
+          if (title) title.textContent = gallery.title || "Gallery";
+          wrapper.innerHTML = "";
+          (gallery.slides || []).forEach((s) => {
+            const slide = document.createElement("div");
+            slide.className = "swiper-slide";
+            slide.innerHTML = `
+              <div class="portfolio-item">
+                <img src="${esc(
+                  s.image
+                )}" alt="" class="img-fluid" loading="lazy">
+                <div class="portfolio-info">
+                  <h5>${esc(s.title)}</h5>
+                  <p>${esc(s.description)}</p>
+                </div>
+              </div>`;
+            wrapper.appendChild(slide);
+          });
+
+          // If you need to (re)initialize Swiper when replacing slides dynamically,
+          // you can re-run your existing init code here or trigger a custom event.
+        }
+
+        function renderPageHeader(page) {
+          const pageTitle = $$(".page-title .container h1");
+          const pageIntro = $$(".page-title .container p");
+          if (pageTitle) pageTitle.textContent = esc(page.title);
+          if (pageIntro) pageIntro.innerHTML = esc(page.intro);
+        }
+
+        // Boot
+        // fetch("assets/data/service-details.json?_=" + Date.now())
+        //   .then((r) => r.json())
+        //   .then((data) => {
+        //     // Header
+        //     renderPageHeader(data.page || {});
+
+        //     // Get service ID from URL (?id=2)
+        //     function getServiceIdFromURL() {
+        //       const params = new URLSearchParams(window.location.search);
+        //       return params.get('id');
+        //     }
+        //     const serviceId = getServiceIdFromURL();
+        //     let service = data.services?.[0];
+        //     if (serviceId) {
+        //       service = data.services?.find(s => String(s.id) === String(serviceId)) || service;
+        //     }
+
+        //     // Render sidebar features
+        //     renderSidebarFeatures(service?.sidebar?.featuresList || {});
+        //     // renderSidebarContact(service?.sidebar?.actionCard || {}); // Commented out - using static HTML instead
+
+        //     // Initial card details (first feature)
+        //     function updateCardDetails(feature) {
+        //       if (!feature?.details) return;
+        //       const area = document.getElementById('card-details-area');
+        //       area.classList.add('fade-out');
+        //       setTimeout(() => {
+        //         document.getElementById('card-details-image').src = feature.details.image;
+        //         document.getElementById('card-details-title').textContent = feature.details.title;
+        //         document.getElementById('card-details-description').textContent = feature.details.description;
+        //         area.classList.remove('fade-out');
+        //       }, 400);
+        //     }
+
+        //     const features = service?.sidebar?.featuresList?.features || [];
+        //     if (features.length) updateCardDetails(features[0]);
+
+        //     // Sidebar click handler with robust data lookup
+        //     const listEl = document.getElementById('sidebar-features-list');
+        //     if (listEl) {
+        //       listEl.addEventListener('click', (e) => {
+        //         const li = e.target.closest('.sidebar-feature-item');
+        //         if (!li) return;
+
+        //         // Toggle active state
+        //         listEl.querySelectorAll('.sidebar-feature-item').forEach(el => el.classList.remove('active'));
+        //         li.classList.add('active');
+
+        //         // Resolve the feature via data-feature-id
+        //         const id = li.dataset.featureId;
+        //         let feature = features.find(f => String(f.id) === String(id));
+
+        //         // Fallback: treat id as index if no explicit ids in JSON
+        //         if (!feature) {
+        //           const idx = Number(id);
+        //           if (!Number.isNaN(idx)) feature = features[idx];
+        //         }
+
+        //         if (feature) updateCardDetails(feature);
+        //       });
+        //     }
+
+        //     // Toolbar & products
+        //     renderToolbar(data.toolbar || {});
+        //     renderProducts(data.products || [], (data.toolbar || {}).defaultPageSize);
+        //     bindToolbar(data.products || [], data.toolbar || {});
+
+        //     // Gallery
+        //     renderGallery(data.gallery || {});
+
+        //     // === MOUNT PRODUCTS LISTING DROP-IN ===
+        //     mountProductsFromJSON(data);
+        //         })
+        //         .catch((err) => {
+        //     console.error("Failed to load service-details.json", err);
+        //         });
       })();
-</script>
+    </script>
 
-
-
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
