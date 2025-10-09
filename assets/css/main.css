@@ -92,10 +92,78 @@
 }
 /* Highlight active sidebar feature */
 .sidebar-feature-item.active {
-  background: #222831;
-  border-left: 4px solid #007bff;
-  padding-left: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  background: #007bff;
+  color: #fff;
+  border-left: 4px solid #0056b3;
+  padding-left: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Product item styles for service details */
+.product-item {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background: #fff;
+}
+
+.product-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.product-thumb {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-title {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.no-products-message {
+  background: #f8f9fa;
+  border: 2px dashed #dee2e6;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+/* Enhance sidebar list */
+.service-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-sidebar .sidebar-feature-item {
+  padding: 12px 16px;
+  margin-bottom: 2px;
+  border-radius: 6px;
+  border-left: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.service-sidebar .sidebar-feature-item:hover {
+  background: #f8f9fa;
+  border-left-color: #007bff;
+  transform: translateX(3px);
+}
+
+/* Toolbar styles */
+.product-toolbar {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.product-toolbar .btn {
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.product-toolbar .form-select {
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
 }
 /**
 * Template Name: Strategy
