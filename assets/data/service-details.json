@@ -30,8 +30,8 @@
                     "image": "assets/img/others/image.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 350,
-                      "display": "Rs 400.00",
+                      "amount": 500,
+                      "display": "Rs 500.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -55,8 +55,8 @@
                     "image": "assets/img/others/image.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 600,
-                      "display": "Rs 600.00",
+                      "amount": 700,
+                      "display": "Rs 700.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -80,8 +80,8 @@
                     "image": "assets/img/others/image.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 800,
-                      "display": "Rs 500.00",
+                      "amount": 550,
+                      "display": "Rs 550.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -105,8 +105,8 @@
                     "image": "assets/img/others/image.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 800,
-                      "display": "Rs 800.00",
+                      "amount": 850,
+                      "display": "Rs 850.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -151,8 +151,8 @@
                     "image": "assets/img/others/matt-red.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 500,
-                      "display": "Rs 500.00",
+                      "amount": 600,
+                      "display": "Rs 600.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -176,8 +176,8 @@
                     "image": "assets/img/others/matt-red.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 700,
-                      "display": "Rs 700.00",
+                      "amount": 800,
+                      "display": "Rs 800.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -201,8 +201,8 @@
                     "image": "assets/img/others/matt-red.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 600,
-                      "display": "Rs 600.00",
+                      "amount": 650,
+                      "display": "Rs 650.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -226,8 +226,8 @@
                     "image": "assets/img/others/matt-red.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 900,
-                      "display": "Rs 900.00",
+                      "amount": 950,
+                      "display": "Rs 950.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -273,8 +273,8 @@
                     "image": "assets/img/others/syn.png",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 550,
-                      "display": "Rs 550.00",
+                      "amount": 650,
+                      "display": "Rs 650.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -284,7 +284,7 @@
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "3 to 4 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -298,8 +298,8 @@
                     "image": "assets/img/others/syn.png",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 850,
-                      "display": "Rs 850.00",
+                      "amount": 750,
+                      "display": "Rs 750.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -309,7 +309,7 @@
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "1 to 2 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -334,7 +334,7 @@
                       "printingLabel": "Printing Front & Back",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "3 to 4 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -348,8 +348,8 @@
                     "image": "assets/img/others/syn.png",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 1150,
-                      "display": "Rs 1150.00",
+                      "amount": 750,
+                      "display": "Rs 750.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -359,7 +359,57 @@
                       "printingLabel": "Printing Front & Back",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "1 to 2 Business Days"
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-fb-500",
+                    "title": "Synthetic Sing Side - 1000",
+                    "image": "assets/img/others/syn.png",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 900,
+                      "display": "Rs 900.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "Printing Single Side",
+                      "lamination": "",
+                      "fileUploadSize": "90mm × 53mm",
+                      "delivery": "3 to 4 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-fb-500",
+                    "title": "Synthetic Double Side - 1000",
+                    "image": "assets/img/others/syn.png",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 1150,
+                      "display": "Rs 115.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "Printing Front & Back",
+                      "lamination": "",
+                      "fileUploadSize": "90mm × 53mm",
+                      "delivery": "3 to 4 Business Days"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -407,7 +457,7 @@
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "3 to 4 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -421,8 +471,8 @@
                     "image": "assets/img/others/texture.png",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 800,
-                      "display": "Rs 800.00",
+                      "amount": 700,
+                      "display": "Rs 700.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -432,7 +482,7 @@
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "1 to 2 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -457,7 +507,7 @@
                       "printingLabel": "Printing Front & Back",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "3 to 4 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -471,8 +521,8 @@
                     "image": "assets/img/others/texture.png",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 1200,
-                      "display": "Rs 1200.00",
+                      "amount": 900,
+                      "display": "Rs 900.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -482,7 +532,7 @@
                       "printingLabel": "Printing Front & Back",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "1 to 2 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -529,7 +579,7 @@
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "3 to 4 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -543,8 +593,8 @@
                     "image": "assets/img/others/needle point.png",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 800,
-                      "display": "Rs 800.00",
+                      "amount": 700,
+                      "display": "Rs 700.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -554,7 +604,7 @@
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "1 to 2 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -579,7 +629,7 @@
                       "printingLabel": "Printing Front & Back",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "3 to 4 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -593,8 +643,8 @@
                     "image": "assets/img/others/needle point.png",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 1200,
-                      "display": "Rs 1200.00",
+                      "amount": 900,
+                      "display": "Rs 900.00",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -604,7 +654,7 @@
                       "printingLabel": "Printing Front & Back",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "1 to 2 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -686,7 +736,7 @@
                   },
                   {
                     "id": "gloss-fb-500",
-                    "title": "Silver Metalic (Perfum Board) Front & Back 500",
+                    "title": "Silver Metalic Front & Back 500",
                     "image": "assets/img/others/gold & silver metalics.png",
                     "pricing": {
                       "currency": "Rs",
@@ -711,7 +761,7 @@
                   },
                   {
                     "id": "gloss-fb-1000",
-                    "title": "Silver Metalic (Perfum Board) Front & Back 200",
+                    "title": "Silver Metalic Front & Back 200",
                     "image": "assets/img/others/gold & silver metalics.png",
                     "pricing": {
                       "currency": "Rs",
@@ -808,22 +858,22 @@
                   },
                   {
                     "id": "gloss-fb-500",
-                    "title": "Matt With Spot UV  100",
+                    "title": "Matt With Spot UV  1000",
                     "image": "assets/img/visiting-card-ivory-spot-uv.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 1100,
-                      "display": "Rs 450.00",
+                      "amount": 1200,
+                      "display": "Rs 1200.00",
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 100,
+                      "qty": 1000,
                       "substrate": "",
                       "printing": "",
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "3 to 4 Business Days"
+                      "delivery": "4 to 5 Business Days"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -833,22 +883,22 @@
                   },
                   {
                     "id": "gloss-fb-1000",
-                    "title": "Matt With Spot UV  100",
+                    "title": "Matt With Spot UV  1000",
                     "image": "assets/img/visiting-card-ivory-spot-uv.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 1500,
-                      "display": "Rs 1500.00",
+                      "amount": 1600,
+                      "display": "Rs 1600.00",
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 200,
+                      "qty": 1000,
                       "substrate": "",
                       "printing": "",
                       "printingLabel": "Printing Front & Back",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "1 to 2 Business Days"
+                      "delivery": "5 to 6 Business Days"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1357,7 +1407,7 @@
           "title": "What We Offer",
           "features": [
             {
-              "title": "A4 Letter Heads",
+              "title": "A4 Letter Pads",
               "hero": {
                 "image": "assets/img/a4-letterheads-160gsm-stock.jpg",
                 "title": "A4",
@@ -1376,22 +1426,22 @@
                 "items": [
                   {
                     "id": "gloss-single-500",
-                    "title": "A4 Single Side 100",
+                    "title": "A4 Letter Pads 100",
                     "image": "assets/img/a4-letterheads-160gsm-stock.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 1200,
-                      "display": "Rs 1200.00",
+                      "amount": 700,
+                      "display": "Rs 700.00",
                       "gstInclusive": true
                     },
                     "specs": {
                       "qty": 100,
-                      "substrate": "A4 (130 GSM)",
+                      "substrate": "",
                       "printing": "",
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
-                      "fileUploadSize": "210mm × 297mm",
-                      "delivery": "1 to 2 Business Days"
+                      "fileUploadSize": "210mm × 280mm",
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1401,22 +1451,22 @@
                   },
                   {
                     "id": "gloss-single-1000",
-                    "title": "A4 200",
+                    "title": "A4 Letter Pads 200",
                     "image": "assets/img/a4-letterheads-160gsm-stock.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 450,
-                      "display": "Rs 2100",
+                      "amount": 1200,
+                      "display": "Rs 1200",
                       "gstInclusive": true
                     },
                     "specs": {
                       "qty": 200,
-                      "substrate": "A4 (130 GSM)",
+                      "substrate": "",
                       "printing": "",
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
-                      "fileUploadSize": "210mm × 297mm",
-                      "delivery": "1 to 2 Business Days"
+                      "fileUploadSize": "210mm × 280mm",
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1426,22 +1476,22 @@
                   },
                   {
                     "id": "gloss-fb-500",
-                    "title": "A4 Doubleside 100",
+                    "title": "A4 Letter Pads 500",
                     "image": "assets/img/a4-letterheads-160gsm-stock.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 1600,
-                      "display": "Rs 1600.00",
+                      "amount": 2300,
+                      "display": "Rs 2300.00",
                       "gstInclusive": true
                     },
                     "specs": {
                       "qty": 500,
-                      "substrate": "A4(170 GSM)",
+                      "substrate": "A4(80 GSM JK Bond)",
                       "printing": "",
-                      "printingLabel": "Printing Front & Back",
+                      "printingLabel": "",
                       "lamination": "",
                       "fileUploadSize": "210mm × 297mm",
-                      "delivery": "1 to 2 Business Days"
+                      "delivery": "3 to 4 Business Days"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1451,22 +1501,22 @@
                   },
                   {
                     "id": "gloss-fb-1000",
-                    "title": "A4 Doubleside 200",
+                    "title": "A4 Letter Pads 1000",
                     "image": "assets/img/a4-letterheads-160gsm-stock.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 2900,
-                      "display": "Rs 2900",
+                      "amount": 2700,
+                      "display": "Rs 2700",
                       "gstInclusive": true
                     },
                     "specs": {
                       "qty": 200,
-                      "substrate": "A4(170 GSM)",
+                      "substrate": "A4(80 GSM Excel Bond)",
                       "printing": "",
-                      "printingLabel": "Printing Front & Back",
+                      "printingLabel": "",
                       "lamination": "",
                       "fileUploadSize": "210mm × 297mm",
-                      "delivery": "1 to 2 Business Days"
+                      "delivery": "3 to 4 Business Days"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1498,22 +1548,47 @@
                 "items": [
                   {
                     "id": "gloss-single-500",
-                    "title": "Brochures - 500",
+                    "title": "Brochures Single Side- 100",
                     "image": "assets/img/Brochure.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 350,
-                      "display": "",
+                      "amount": 1200,
+                      "display": "1200.00",
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": null,
+                      "qty": 100,
                       "substrate": "A5 and Executive Sizes Available",
-                      "printing": "",
-                      "printingLabel": "",
+                      "printing": "Single Side Printing",
+                      "printingLabel": "(170 GSM)",
                       "lamination": "",
-                      "fileUploadSize": "",
-                      "delivery": ""
+                      "fileUploadSize": "210mm x 297mm",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                  {
+                    "id": "gloss-single-500",
+                    "title": "Brochures Frond & Back - 100",
+                    "image": "assets/img/Brochure.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 1600,
+                      "display": "1600.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 100,
+                      "substrate": "A5 and Executive Sizes Available",
+                      "printing": "Frond & Back Printing",
+                      "printingLabel": "(170 GSM)",
+                      "lamination": "",
+                      "fileUploadSize": "210mm x 297mm",
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1523,22 +1598,97 @@
                   },
                   {
                     "id": "gloss-single-1000",
+                    "title": "Brochures Single Side - 200",
+                    "image": "assets/img/Brochure.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 2100,
+                      "display": "2100.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 200,
+                      "substrate": "A5 and Executive Sizes Available",
+                      "printing": "Single Side Printing",
+                      "printingLabel": "(170 GSM)",
+                      "lamination": "",
+                      "fileUploadSize": "210mm x 297mm",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-single-1000",
+                    "title": "Brochures Frond & Back - 200",
+                    "image": "assets/img/Brochure.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 2900,
+                      "display": "2900.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 200,
+                      "substrate": "A5 and Executive Sizes Available",
+                      "printing": "Frond & Back Printing",
+                      "printingLabel": "(170 GSM)",
+                      "lamination": "",
+                      "fileUploadSize": "210mm x 297mm",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                    {
+                    "id": "gloss-single-1000",
                     "title": "Brochures - 1000",
                     "image": "assets/img/Brochure.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 450,
-                      "display": "",
+                      "amount": 2000,
+                      "display": "2000.00",
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": null,
+                      "qty": 1000,
                       "substrate": "A5 and Executive Sizes Available",
                       "printing": "",
-                      "printingLabel": "",
+                      "printingLabel": "(100 GSM)",
                       "lamination": "",
-                      "fileUploadSize": "",
-                      "delivery": ""
+                      "fileUploadSize": "210mm x 297mm",
+                      "delivery": "2 to 3 days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-single-1000",
+                    "title": "Brochures Frond & Back - 1000",
+                    "image": "assets/img/Brochure.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 3000,
+                      "display": "3000.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "A5 and Executive Sizes Available",
+                      "printing": "Frond & Back Printing",
+                      "printingLabel": "(100 GSM)",
+                      "lamination": "",
+                      "fileUploadSize": "210mm x 297mm",
+                      "delivery": "2 to 3 days"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1642,16 +1792,16 @@
                 "items": [
                   {
                     "id": "gloss-single-500",
-                    "title": "Certificate - 50",
+                    "title": "Certificates",
                     "image": "assets/img/IN_Certificate_Overview.webp",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 350,
-                      "display": "Rs 510",
+                      "amount": 12,
+                      "display": "Rs 12 per nos",
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 50,
+                      "qty": null,
                       "substrate": "",
                       "printing": "",
                       "printingLabel": "",
@@ -1759,13 +1909,38 @@
                 },
                 "whatsAppDefaultNumber": "18039523845",
                 "items": [
+                   {
+                    "id": "gloss-single-1000",
+                    "title": "Viboothi Cover Multicolor Color",
+                    "image": "assets/img/prasada cover.png",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 4500,
+                      "display": "",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 4000,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": "3 to 4 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
                   {
                     "id": "gloss-single-500",
                     "title": "Viboothi Cover Single Color",
                     "image": "assets/img/viboothi-cover-print-single-color-coimbatore.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 350,
+                      "amount": 3500,
                       "display": "3500",
                       "gstInclusive": true
                     },
@@ -1773,6 +1948,78 @@
                       "qty": 4000,
                       "substrate": "Jk Bond (80gsm)",
                       "printing": "",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": "3 to 4 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                    {
+                    "id": "gloss-single-500",
+                    "title": "Viboothi Cover Single Color",
+                    "image": "assets/img/viboothi-cover-print-single-color-coimbatore.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 4500,
+                      "display": "4500",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 4000,
+                      "substrate": "Art Paper (100gsm)",
+                      "printing": "",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": "3 to 4 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  }
+                ]
+              }
+               }
+            },
+              {
+              "title": "Bill Book",
+              "hero": {
+                "image": "assets/img/standy.png",
+                "title": "Standy",
+                "description": "Creative Bill books to Marketing buisness and ideas."
+              },
+              "productsListing": { 
+                 "productsListing": {
+                "toolbar": {
+                  "totalLabel": "5 Item(s)",
+                  "showLabel": "SHOW:",
+                  "pageSizeOptions": [20, 50, 100],
+                  "defaultPageSize": 20,
+                  "defaultView": "list"
+                },
+                "whatsAppDefaultNumber": "18039523845",
+                "items": [
+                  {
+                    "id": "gloss-single-500",
+                    "title": "Bill Book A5 5 books",
+                    "image": "assets/img/bill-book-printing-service.avif",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 1250,
+                      "display": "1250.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 5,
+                      "substrate": "A5 1+1 Single Colour",
+                      "printing": "5 Books",
                       "printingLabel": "",
                       "lamination": "",
                       "fileUploadSize": "",
@@ -1786,18 +2033,68 @@
                   },
                   {
                     "id": "gloss-single-1000",
-                    "title": "Viboothi Cover Multicolor Color",
-                    "image": "assets/img/prasada cover.png",
+                    "title": "Bill Book A5 10 books",
+                    "image": "assets/img/bill-book-printing-service.avif",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 4500,
-                      "display": "Rs 4500",
+                      "amount": 1750,
+                      "display": "Rs 1750.00",
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 4000,
-                      "substrate": "",
-                      "printing": "",
+                      "qty": 10,
+                      "substrate": "A5 1+1 Single Colour",
+                      "printing": "A5 10 books",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": "1 to 2 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                    {
+                    "id": "gloss-single-500",
+                    "title": "Bill Book A4 5 books",
+                    "image": "assets/img/bill-book-printing-service.avif",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 1750,
+                      "display": "1750.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 5,
+                      "substrate": "A4 1+1 Single Colour",
+                      "printing": "5 Books",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": "1 to 2 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                  {
+                    "id": "gloss-single-1000",
+                    "title": "Bill Book A4 10 books",
+                    "image": "assets/img/bill-book-printing-service.avif",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 2750,
+                      "display": "Rs 2750.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 10,
+                      "substrate": "A4 1+1 Single Colour",
+                      "printing": "A4 10 books",
                       "printingLabel": "",
                       "lamination": "",
                       "fileUploadSize": "",
@@ -1851,7 +2148,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "",
+                      "display": "Rs 20 per nos",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1875,7 +2172,7 @@
                }
             },
             {
-              "title": "Flex",
+              "title": "Photo Cups",
               "hero": {
                 "image": "assets/img/banner.jpg",
                 "title": "Flex",
@@ -1894,8 +2191,33 @@
                 "items": [
                   {
                     "id": "gloss-single-500",
-                    "title": "Flex",
-                    "image": "assets/img/banner.jpg",
+                    "title": "Photo Cups",
+                    "image": "assets/img/mug2.jpeg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": null,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": ""
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                    {
+                    "id": "gloss-single-500",
+                    "title": "Photo Cups",
+                    "image": "assets/img/mug1.jpeg",
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
@@ -1950,7 +2272,7 @@
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 50,
+                      "qty": null,
                       "substrate": "",
                       "printing": "",
                       "printingLabel": "",
@@ -1969,7 +2291,7 @@
                }
             },
             {
-              "title": "Advertisement",
+              "title": "Photo Frame",
               "hero": {
                 "image": "assets/img/services/services-4.webp",
                 "title": "Advertisement",
@@ -1988,8 +2310,83 @@
                 "items": [
                   {
                     "id": "gloss-single-500",
-                    "title": "Advertisement",
-                    "image": "assets/img/advertisement-designing-services-500x500.webp",
+                    "title": "Photo Frame",
+                    "image": "assets/img/photoframe1.jpeg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": null,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": ""
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-single-500",
+                    "title": "Photo Frame",
+                    "image": "assets/img/photoframe2.jpeg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": null,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": ""
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-single-500",
+                    "title": "Photo Frame",
+                    "image": "assets/img/photoframe3.jpeg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": null,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": ""
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-single-500",
+                    "title": "Photo Frame",
+                    "image": "assets/img/photoframe4.jpeg",
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
@@ -2037,6 +2434,53 @@
                     "id": "gloss-single-500",
                     "title": "Books",
                     "image": "assets/img/personalized-hardbound-book.webp",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": null,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": ""
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  }
+                ]
+              }
+               }
+            },
+              {
+              "title": "Name Boards",
+              "hero": {
+                "image": "assets/img/services/services-4.webp",
+                "title": "Books",
+                "description": "Creative friendship cards to celebrate bonds and memories."
+              },
+              "productsListing": { 
+                 "productsListing": {
+                "toolbar": {
+                  "totalLabel": "5 Item(s)",
+                  "showLabel": "SHOW:",
+                  "pageSizeOptions": [20, 50, 100],
+                  "defaultPageSize": 20,
+                  "defaultView": "list"
+                },
+                "whatsAppDefaultNumber": "18039523845",
+                "items": [
+                  {
+                    "id": "gloss-single-500",
+                    "title": "Name Boards",
+                    "image": "assets/img/name-board.jpg",
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
@@ -2145,8 +2589,8 @@
                     "image": "assets/img/EIMG_0406-1920x1322.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 450,
-                      "display": "",
+                      "amount": 40,
+                      "display": "Rs 40 per sheet",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -2193,7 +2637,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "",
+                      "display": "Rs 30 per sheet",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -2240,7 +2684,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "",
+                      "display": "Rs 40 per sheet",
                       "gstInclusive": true
                     },
                     "specs": {
