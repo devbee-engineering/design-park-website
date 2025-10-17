@@ -134,11 +134,16 @@ body.index-page {
 /* ===== HERO BANNER FIX ===== */
 
 /* Let the banner escape the grid/container and span full viewport */
-.hero-banner-breakout {
+.hero-banner-breakout{
   position: relative;
-  width: 100vw;
+  width: min(1200px, 92vw);   /* responsive max width */
+  margin: 0 auto;             /* center within parent */
   z-index: 1;
+
+  border-radius: 28px;
+  overflow: hidden;
 }
+
 
 /* Remove the old card constraints from the carousel wrapper */
 .agency-carousel-center {
@@ -163,7 +168,7 @@ body.index-page {
 #heroCarousel .carousel-item > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   display: block;
   border-radius: 0 !important;
