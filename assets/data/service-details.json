@@ -22,7 +22,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -143,7 +143,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -265,7 +265,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -438,7 +438,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -560,7 +560,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -682,7 +682,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -804,7 +804,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -937,7 +937,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -996,7 +996,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -1118,7 +1118,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -1240,7 +1240,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -1288,7 +1288,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -1422,25 +1422,25 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
-                    "title": "A4 Letter Pads 100",
+                    "title": "A4 Letter Pads 300",
                     "image": "assets/img/a4-letterheads-160gsm-stock.jpg",
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 700.00",
+                      "display": "Rs 950.00",
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 100,
-                      "substrate": "",
+                      "qty": 300,
+                      "substrate": "A4(80 GSM JK Bond)",
                       "printing": "",
-                      "printingLabel": "Single Side Printing",
+                      "printingLabel": "Single Color Printing",
                       "lamination": "",
-                      "fileUploadSize": "210mm × 280mm",
+                      "fileUploadSize": "210mm × 297mm",
                       "delivery": "Same Day Delivery"
                     },
                     "actions": {
@@ -1451,7 +1451,7 @@
                   },
                   {
                     "id": "gloss-single-1000",
-                    "title": "A4 Letter Pads 200",
+                    "title": "A4 Letter Pads 500",
                     "image": "assets/img/a4-letterheads-160gsm-stock.jpg",
                     "pricing": {
                       "currency": "Rs",
@@ -1460,13 +1460,13 @@
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 200,
+                      "qty": 500,
                       "substrate": "",
-                      "printing": "",
-                      "printingLabel": "Single Side Printing",
+                      "printing": "A4(80gsm JK Bond)",
+                      "printingLabel": "Single Color Printing",
                       "lamination": "",
-                      "fileUploadSize": "210mm × 280mm",
-                      "delivery": "Same Day Delivery"
+                      "fileUploadSize": "210mm × 297mm",
+                      "delivery": "1 to 2 Business Days"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1476,16 +1476,16 @@
                   },
                   {
                     "id": "gloss-fb-500",
-                    "title": "A4 Letter Pads 500",
+                    "title": "A4 Letter Pads 1000",
                     "image": "assets/img/a4-letterheads-160gsm-stock.jpg",
                     "pricing": {
                       "currency": "Rs",
                       "amount": 2300,
-                      "display": "Rs 2300.00",
+                      "display": "Rs 1700.00",
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 500,
+                      "qty": 1000,
                       "substrate": "A4(80 GSM JK Bond)",
                       "printing": "",
                       "printingLabel": "",
@@ -1499,21 +1499,96 @@
                       "whatsAppNumber": null
                     }
                   },
-                  {
-                    "id": "gloss-fb-1000",
-                    "title": "A4 Letter Pads 1000",
-                    "image": "assets/img/a4-letterheads-160gsm-stock.jpg",
+                   {
+                    "id": "gloss-single-500",
+                    "title": "A4 Letter Pads 100",
+                    "image": "assets/img/leeter-head-mult.webp",
+                    "pricing": {
+                      "currency": "Rs 1200",
+                      "amount": 700,
+                      "display": "Rs 700.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 100,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "Single Color Printing",
+                      "lamination": "",
+                      "fileUploadSize": "210mm × 280mm",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                    {
+                    "id": "gloss-single-500",
+                    "title": "A4 Letter Pads 200",
+                    "image": "assets/img/leeter-head-mult.webp",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 2700,
-                      "display": "Rs 2700",
+                      "amount": 700,
+                      "display": "Rs 1200.00",
                       "gstInclusive": true
                     },
                     "specs": {
                       "qty": 200,
-                      "substrate": "A4(80 GSM Excel Bond)",
+                      "substrate": "",
+                      "printing": "A4(80 GSM JK Bond)",
+                      "printingLabel": "Multicolr Color Printing",
+                      "lamination": "",
+                      "fileUploadSize": "210mm × 280mm",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-single-500",
+                    "title": "A4 Letter Pads 500",
+                    "image": "assets/img/leeter-head-mult.webp",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 700,
+                      "display": "Rs 2300.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 500,
+                      "substrate": "A4(80 GSM JK Bond)",
                       "printing": "",
-                      "printingLabel": "",
+                      "printingLabel": "Multicolr Color Printing",
+                      "lamination": "",
+                      "fileUploadSize": "210mm × 297mm",
+                      "delivery": "3 to 4 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-single-500",
+                    "title": "A4 Letter Pads 1000",
+                    "image": "assets/img/leeter-head-mult.webp",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 700,
+                      "display": "Rs 2700.00",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "A4(80 GSM JK Bond)",
+                      "printing": "",
+                      "printingLabel": "Multicolr Color Printing",
                       "lamination": "",
                       "fileUploadSize": "210mm × 297mm",
                       "delivery": "3 to 4 Business Days"
@@ -1544,7 +1619,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -1558,7 +1633,7 @@
                     },
                     "specs": {
                       "qty": 100,
-                      "substrate": "A5 and Executive Sizes Available",
+                      "substrate": "A4 Front and Back",
                       "printing": "Single Side Printing",
                       "printingLabel": "(170 GSM)",
                       "lamination": "",
@@ -1583,7 +1658,7 @@
                     },
                     "specs": {
                       "qty": 100,
-                      "substrate": "A5 and Executive Sizes Available",
+                      "substrate": "A4 Front and Back",
                       "printing": "Frond & Back Printing",
                       "printingLabel": "(170 GSM)",
                       "lamination": "",
@@ -1608,7 +1683,7 @@
                     },
                     "specs": {
                       "qty": 200,
-                      "substrate": "A5 and Executive Sizes Available",
+                      "substrate": "A4 Front and Back",
                       "printing": "Single Side Printing",
                       "printingLabel": "(170 GSM)",
                       "lamination": "",
@@ -1633,11 +1708,11 @@
                     },
                     "specs": {
                       "qty": 200,
-                      "substrate": "A5 and Executive Sizes Available",
+                      "substrate": "A4 Front and Back",
                       "printing": "Frond & Back Printing",
                       "printingLabel": "(170 GSM)",
                       "lamination": "",
-                      "fileUploadSize": "210mm x 297mm",
+                      "fileUploadSize": "210mm x 280mm",
                       "delivery": "Same Day Delivery"
                     },
                     "actions": {
@@ -1658,11 +1733,11 @@
                     },
                     "specs": {
                       "qty": 1000,
-                      "substrate": "A5 and Executive Sizes Available",
+                      "substrate": "A4 Front and Back",
                       "printing": "",
                       "printingLabel": "(100 GSM)",
                       "lamination": "",
-                      "fileUploadSize": "210mm x 297mm",
+                      "fileUploadSize": "210mm x 280mm",
                       "delivery": "2 to 3 days"
                     },
                     "actions": {
@@ -1683,11 +1758,11 @@
                     },
                     "specs": {
                       "qty": 1000,
-                      "substrate": "A5 and Executive Sizes Available",
+                      "substrate": "A4 Front and Back",
                       "printing": "Frond & Back Printing",
                       "printingLabel": "(100 GSM)",
                       "lamination": "",
-                      "fileUploadSize": "210mm x 297mm",
+                      "fileUploadSize": "210mm x 280mm",
                       "delivery": "2 to 3 days"
                     },
                     "actions": {
@@ -1716,7 +1791,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -1734,6 +1809,56 @@
                       "printing": "",
                       "printingLabel": "Single Color",
                       "lamination": "",
+                      "fileUploadSize": "6 × 4",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                     {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Single Color",
+                    "image": "assets/img/Envelop-small.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "Rs 1400",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "Single Color",
+                      "lamination": "",
+                      "fileUploadSize": "6 × 4",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                     {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Single Color",
+                    "image": "assets/img/Envelop-small.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "Rs 1200",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 500,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "Single Color",
+                      "lamination": "",
                       "fileUploadSize": "9 × 4",
                       "delivery": "Same Day Delivery"
                     },
@@ -1743,24 +1868,174 @@
                       "whatsAppNumber": null
                     }
                   },
-                  {
-                    "id": "gloss-single-1000",
-                    "title": "Envelops Multicolor",
-                    "image": "assets/img/Envelope.jpg",
+                     {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Single Color",
+                    "image": "assets/img/Envelop-small.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 450,
-                      "display": "Rs 1400",
+                      "amount": 350,
+                      "display": "Rs 1500",
                       "gstInclusive": true
                     },
                     "specs": {
                       "qty": 1000,
                       "substrate": "",
                       "printing": "",
-                      "printingLabel": "Multiclor Envelops",
+                      "printingLabel": "Single Color",
                       "lamination": "",
                       "fileUploadSize": "9 × 4",
                       "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                     {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Single Color",
+                    "image": "assets/img/Envelop-small.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "Rs 1500",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 500,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "Single Color",
+                      "lamination": "",
+                      "fileUploadSize": "10.5 × 4.5",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                     {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Single Color",
+                    "image": "assets/img/Envelop-small.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "Rs 2000",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "Single Color",
+                      "lamination": "",
+                      "fileUploadSize": "10.5 × 4.5",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                      {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Multicolor Color",
+                    "image": "assets/img/Envelope.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 2600,
+                      "display": "Rs 2600",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "Jk Bond (80gsm)",
+                      "printing": "",
+                      "printingLabel": "Multicolor Color",
+                      "lamination": "",
+                      "fileUploadSize": "6 × 4",
+                      "delivery": "4 to 5 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                     {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Multicolor Color",
+                    "image": "assets/img/Envelope.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "Rs 2800",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "Jk Bond (80gsm)",
+                      "printing": "",
+                      "printingLabel": "Multicolor Color",
+                      "lamination": "",
+                      "fileUploadSize": "7 × 4",
+                      "delivery": "4 to 5 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                     {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Multicolor Color",
+                    "image": "assets/img/Envelope.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 3200,
+                      "display": "Rs 3200",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "Jk Bond (80gsm)",
+                      "printing": "",
+                      "printingLabel": "Multicolor Color",
+                      "lamination": "",
+                      "fileUploadSize": "9 × 4",
+                      "delivery": "4 to 5 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                     {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Multicolor Color",
+                    "image": "assets/img/Envelope.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 5850,
+                      "display": "Rs 5850",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "Jk Bond (80gsm)",
+                      "printing": "",
+                      "printingLabel": "Multicolor Color",
+                      "lamination": "",
+                      "fileUploadSize": "9 × 6",
+                      "delivery": "4 to 5 Business Days"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1788,7 +2063,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -1835,7 +2110,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -1907,26 +2182,26 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
-                   {
-                    "id": "gloss-single-1000",
-                    "title": "Viboothi Cover Multicolor Color",
-                    "image": "assets/img/prasada cover.png",
+                     {
+                    "id": "gloss-single-500",
+                    "title": "Viboothi Cover Single Color",
+                    "image": "assets/img/viboothi-cover-print-single-color-coimbatore.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 4500,
-                      "display": "",
+                      "amount": 900,
+                      "display": "Rs 900",
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 4000,
+                      "qty": 1000,
                       "substrate": "",
-                      "printing": "",
+                      "printing": "Single Color",
                       "printingLabel": "",
                       "lamination": "",
                       "fileUploadSize": "",
-                      "delivery": "3 to 4 Business Days"
+                      "delivery": "Same Day Delivery"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1940,8 +2215,83 @@
                     "image": "assets/img/viboothi-cover-print-single-color-coimbatore.jpg",
                     "pricing": {
                       "currency": "Rs",
-                      "amount": 3500,
-                      "display": "3500",
+                      "amount": 1400,
+                      "display": "Rs 1400",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "",
+                      "printing": "Single Color",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "6 x 4",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                    {
+                    "id": "gloss-single-500",
+                    "title": "Viboothi Cover Single Color",
+                    "image": "assets/img/viboothi-cover-print-single-color-coimbatore.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 1500,
+                      "display": "Rs 1500",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "",
+                      "printing": "Single Color",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "9 x 4",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                   {
+                    "id": "gloss-single-500",
+                    "title": "Viboothi Cover Single Color",
+                    "image": "assets/img/viboothi-cover-print-single-color-coimbatore.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 2000,
+                      "display": "Rs 2000",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "",
+                      "printing": "Single Color",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "10.5 x 4.5",
+                      "delivery": "Same Day Delivery"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                     {
+                    "id": "gloss-single-1000",
+                    "title": "Viboothi Cover Multicolor Color",
+                    "image": "assets/img/prasada cover.png",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 4500,
+                      "display": "Rs 3500",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1959,14 +2309,14 @@
                       "whatsAppNumber": null
                     }
                   },
-                    {
-                    "id": "gloss-single-500",
-                    "title": "Viboothi Cover Single Color",
-                    "image": "assets/img/viboothi-cover-print-single-color-coimbatore.jpg",
+                      {
+                    "id": "gloss-single-1000",
+                    "title": "Viboothi Cover Multicolor Color",
+                    "image": "assets/img/prasada cover.png",
                     "pricing": {
                       "currency": "Rs",
                       "amount": 4500,
-                      "display": "4500",
+                      "display": "Rs 4500",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -2004,7 +2354,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2139,7 +2489,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2187,7 +2537,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2259,7 +2609,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2306,7 +2656,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2428,7 +2778,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2475,12 +2825,37 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
                     "title": "Name Boards",
                     "image": "assets/img/name-board.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": null,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "",
+                      "lamination": "",
+                      "fileUploadSize": "",
+                      "delivery": ""
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
+                  },
+                      {
+                    "id": "gloss-single-500",
+                    "title": "Name Boards",
+                    "image": "assets/img/name-board-1.webp",
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
@@ -2534,7 +2909,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2581,7 +2956,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-1000",
@@ -2628,7 +3003,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-1000",
@@ -2675,7 +3050,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2734,7 +3109,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2856,7 +3231,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -2978,7 +3353,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -3100,7 +3475,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -3222,7 +3597,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -3344,7 +3719,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
@@ -3466,7 +3841,7 @@
                   "defaultPageSize": 20,
                   "defaultView": "list"
                 },
-                "whatsAppDefaultNumber": "18039523845",
+                "whatsAppDefaultNumber": "918883509907",
                 "items": [
                   {
                     "id": "gloss-single-500",
