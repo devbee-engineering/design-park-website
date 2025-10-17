@@ -31,7 +31,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 500,
-                      "display": "Rs 500.00",
+                      "display": "Rs 500",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -56,7 +56,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 700.00",
+                      "display": "Rs 700",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -81,7 +81,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 550,
-                      "display": "Rs 550.00",
+                      "display": "Rs 550",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -106,7 +106,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 850,
-                      "display": "Rs 850.00",
+                      "display": "Rs 850",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -152,7 +152,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 600,
-                      "display": "Rs 600.00",
+                      "display": "Rs 600",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -177,7 +177,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 800,
-                      "display": "Rs 800.00",
+                      "display": "Rs 800",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -202,7 +202,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 650,
-                      "display": "Rs 650.00",
+                      "display": "Rs 650",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -227,7 +227,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 950,
-                      "display": "Rs 950.00",
+                      "display": "Rs 950",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -274,7 +274,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 650,
-                      "display": "Rs 650.00",
+                      "display": "Rs 650",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -299,7 +299,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 750,
-                      "display": "Rs 750.00",
+                      "display": "Rs 750",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -324,7 +324,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 700.00",
+                      "display": "Rs 700",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -349,7 +349,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 750,
-                      "display": "Rs 750.00",
+                      "display": "Rs 750",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -374,7 +374,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 900,
-                      "display": "Rs 900.00",
+                      "display": "Rs 900",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -399,7 +399,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1150,
-                      "display": "Rs 115.00",
+                      "display": "Rs 1150",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -447,7 +447,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 400,
-                      "display": "Rs 400.00",
+                      "display": "Rs 400",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -472,7 +472,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 700.00",
+                      "display": "Rs 700",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -497,7 +497,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 600,
-                      "display": "Rs 600.00",
+                      "display": "Rs 600",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -522,7 +522,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 900,
-                      "display": "Rs 900.00",
+                      "display": "Rs 900",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -569,7 +569,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 400,
-                      "display": "Rs 400.00",
+                      "display": "Rs 400",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -594,7 +594,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 700.00",
+                      "display": "Rs 700",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -619,7 +619,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 600,
-                      "display": "Rs 600.00",
+                      "display": "Rs 600",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -644,7 +644,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 900,
-                      "display": "Rs 900.00",
+                      "display": "Rs 900",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -691,7 +691,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 600,
-                      "display": "Rs 600.00",
+                      "display": "Rs 600",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -716,7 +716,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1200,
-                      "display": "Rs 1200.00",
+                      "display": "Rs 1200",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -741,7 +741,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 600,
-                      "display": "Rs 600.00",
+                      "display": "Rs 600",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -766,7 +766,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1200,
-                      "display": "Rs 1200.00",
+                      "display": "Rs 1200",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -813,7 +813,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 500,
-                      "display": "Rs 500.00",
+                      "display": "Rs 500",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -838,7 +838,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 700.00",
+                      "display": "Rs 700",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -863,7 +863,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1200,
-                      "display": "Rs 1200.00",
+                      "display": "Rs 1200",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -888,7 +888,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1600,
-                      "display": "Rs 1600.00",
+                      "display": "Rs 1600",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1431,7 +1431,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 950.00",
+                      "display": "Rs 950",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1481,7 +1481,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 2300,
-                      "display": "Rs 1700.00",
+                      "display": "Rs 1700",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1506,7 +1506,7 @@
                     "pricing": {
                       "currency": "Rs 1200",
                       "amount": 700,
-                      "display": "Rs 700.00",
+                      "display": "Rs 700",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1531,7 +1531,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 1200.00",
+                      "display": "Rs 1200",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1556,7 +1556,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 2300.00",
+                      "display": "Rs 2300",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1581,7 +1581,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 700,
-                      "display": "Rs 2700.00",
+                      "display": "Rs 2700",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1628,7 +1628,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1200,
-                      "display": "1200.00",
+                      "display": "Rs 1200",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1653,7 +1653,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1600,
-                      "display": "1600.00",
+                      "display": "Rs 1600",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1678,7 +1678,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 2100,
-                      "display": "2100.00",
+                      "display": "Rs 2100",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1703,7 +1703,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 2900,
-                      "display": "2900.00",
+                      "display": "Rs 2900",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1728,7 +1728,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 2000,
-                      "display": "2000.00",
+                      "display": "Rs 2000",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -1753,7 +1753,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 3000,
-                      "display": "3000.00",
+                      "display": "Rs 3000",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -2119,7 +2119,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "1800",
+                      "display": "Rs 1800",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -2363,7 +2363,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1250,
-                      "display": "1250.00",
+                      "display": "Rs 1250",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -2388,7 +2388,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1750,
-                      "display": "Rs 1750.00",
+                      "display": "Rs 1750",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -2413,7 +2413,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1750,
-                      "display": "1750.00",
+                      "display": "Rs 1750",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -2438,7 +2438,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 2750,
-                      "display": "Rs 2750.00",
+                      "display": "Rs 2750",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3118,7 +3118,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "Rs 350.00",
+                      "display": "Rs 350",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3143,7 +3143,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3168,7 +3168,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3193,7 +3193,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 550,
-                      "display": "Rs 550.00",
+                      "display": "Rs 550",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3240,7 +3240,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "Rs 350.00",
+                      "display": "Rs 350",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3265,7 +3265,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3290,7 +3290,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3315,7 +3315,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 550,
-                      "display": "Rs 550.00",
+                      "display": "Rs 550",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3362,7 +3362,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "Rs 350.00",
+                      "display": "Rs 350",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3387,7 +3387,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3412,7 +3412,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3437,7 +3437,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 550,
-                      "display": "Rs 550.00",
+                      "display": "Rs 550",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3484,7 +3484,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "Rs 350.00",
+                      "display": "Rs 350",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3509,7 +3509,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3534,7 +3534,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3559,7 +3559,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 550,
-                      "display": "Rs 550.00",
+                      "display": "Rs 550",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3606,7 +3606,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "Rs 350.00",
+                      "display": "Rs 350",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3631,7 +3631,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3656,7 +3656,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3681,7 +3681,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 550,
-                      "display": "Rs 550.00",
+                      "display": "Rs 550",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3728,7 +3728,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "Rs 350.00",
+                      "display": "Rs 350",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3753,7 +3753,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3778,7 +3778,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3803,7 +3803,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 550,
-                      "display": "Rs 550.00",
+                      "display": "Rs 550",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3850,7 +3850,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 350,
-                      "display": "Rs 350.00",
+                      "display": "Rs 350",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3875,7 +3875,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3900,7 +3900,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 450,
-                      "display": "Rs 450.00",
+                      "display": "Rs 450",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -3925,7 +3925,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 550,
-                      "display": "Rs 550.00",
+                      "display": "Rs 550",
                       "gstInclusive": true
                     },
                     "specs": {
