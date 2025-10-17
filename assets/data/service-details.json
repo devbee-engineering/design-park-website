@@ -691,7 +691,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 600,
-                      "display": "Rs 600",
+                      "display": "Rs 500",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -716,7 +716,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1200,
-                      "display": "Rs 1200",
+                      "display": "Rs 750",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -736,7 +736,7 @@
                   },
                   {
                     "id": "gloss-fb-500",
-                    "title": "Silver Metalic Front & Back 500",
+                    "title": "Silver Metalic Front & Back 100",
                     "image": "assets/img/others/gold & silver metalics.png",
                     "pricing": {
                       "currency": "Rs",
@@ -766,7 +766,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 1200,
-                      "display": "Rs 1200",
+                      "display": "Rs 950",
                       "gstInclusive": true
                     },
                     "specs": {
@@ -823,7 +823,7 @@
                       "printingLabel": "Single Side Printing",
                       "lamination": "",
                       "fileUploadSize": "90mm × 53mm",
-                      "delivery": "3 to 4 Business Days"
+                      "delivery": "1 to 2 Business Days"
                     },
                     "actions": {
                       "learnMoreUrl": "#",
@@ -1513,9 +1513,9 @@
                       "qty": 100,
                       "substrate": "",
                       "printing": "",
-                      "printingLabel": "Single Color Printing",
+                      "printingLabel": "Multi Color Printing",
                       "lamination": "",
-                      "fileUploadSize": "210mm × 280mm",
+                      "fileUploadSize": "210mm × 297mm",
                       "delivery": "Same Day Delivery"
                     },
                     "actions": {
@@ -1540,7 +1540,7 @@
                       "printing": "A4(80 GSM JK Bond)",
                       "printingLabel": "Multicolr Color Printing",
                       "lamination": "",
-                      "fileUploadSize": "210mm × 280mm",
+                      "fileUploadSize": "210mm × 297mm",
                       "delivery": "Same Day Delivery"
                     },
                     "actions": {
@@ -1565,7 +1565,7 @@
                       "printing": "",
                       "printingLabel": "Multicolr Color Printing",
                       "lamination": "",
-                      "fileUploadSize": "210mm × 297mm",
+                      "fileUploadSize": "210mm × 280mm",
                       "delivery": "3 to 4 Business Days"
                     },
                     "actions": {
@@ -1590,7 +1590,7 @@
                       "printing": "",
                       "printingLabel": "Multicolr Color Printing",
                       "lamination": "",
-                      "fileUploadSize": "210mm × 297mm",
+                      "fileUploadSize": "210mm × 280mm",
                       "delivery": "3 to 4 Business Days"
                     },
                     "actions": {
@@ -1733,7 +1733,7 @@
                     },
                     "specs": {
                       "qty": 1000,
-                      "substrate": "A4 Front and Back",
+                      "substrate": "A4 Single Side",
                       "printing": "",
                       "printingLabel": "(100 GSM)",
                       "lamination": "",
@@ -2042,6 +2042,31 @@
                       "cartEnabled": true,
                       "whatsAppNumber": null
                     }
+                  },
+                         {
+                    "id": "gloss-single-500",
+                    "title": "Envelops Single Color",
+                    "image": "assets/img/Envelope.jpg",
+                    "pricing": {
+                      "currency": "Rs",
+                      "amount": 350,
+                      "display": "Rs 3500",
+                      "gstInclusive": true
+                    },
+                    "specs": {
+                      "qty": 1000,
+                      "substrate": "",
+                      "printing": "",
+                      "printingLabel": "Multi Color Printing",
+                      "lamination": "",
+                      "fileUploadSize": "10.5 × 4.5",
+                      "delivery": "4 to 5 Business Days"
+                    },
+                    "actions": {
+                      "learnMoreUrl": "#",
+                      "cartEnabled": true,
+                      "whatsAppNumber": null
+                    }
                   }
                 ]
               }
@@ -2220,62 +2245,12 @@
                       "gstInclusive": true
                     },
                     "specs": {
-                      "qty": 1000,
+                      "qty": 2000,
                       "substrate": "",
                       "printing": "Single Color",
                       "printingLabel": "",
                       "lamination": "",
-                      "fileUploadSize": "6 x 4",
-                      "delivery": "Same Day Delivery"
-                    },
-                    "actions": {
-                      "learnMoreUrl": "#",
-                      "cartEnabled": true,
-                      "whatsAppNumber": null
-                    }
-                  },
-                    {
-                    "id": "gloss-single-500",
-                    "title": "Viboothi Cover Single Color",
-                    "image": "assets/img/viboothi-cover-print-single-color-coimbatore.jpg",
-                    "pricing": {
-                      "currency": "Rs",
-                      "amount": 1500,
-                      "display": "Rs 1500",
-                      "gstInclusive": true
-                    },
-                    "specs": {
-                      "qty": 1000,
-                      "substrate": "",
-                      "printing": "Single Color",
-                      "printingLabel": "",
-                      "lamination": "",
-                      "fileUploadSize": "9 x 4",
-                      "delivery": "Same Day Delivery"
-                    },
-                    "actions": {
-                      "learnMoreUrl": "#",
-                      "cartEnabled": true,
-                      "whatsAppNumber": null
-                    }
-                  },
-                   {
-                    "id": "gloss-single-500",
-                    "title": "Viboothi Cover Single Color",
-                    "image": "assets/img/viboothi-cover-print-single-color-coimbatore.jpg",
-                    "pricing": {
-                      "currency": "Rs",
-                      "amount": 2000,
-                      "display": "Rs 2000",
-                      "gstInclusive": true
-                    },
-                    "specs": {
-                      "qty": 1000,
-                      "substrate": "",
-                      "printing": "Single Color",
-                      "printingLabel": "",
-                      "lamination": "",
-                      "fileUploadSize": "10.5 x 4.5",
+                      "fileUploadSize": "",
                       "delivery": "Same Day Delivery"
                     },
                     "actions": {
@@ -2316,7 +2291,7 @@
                     "pricing": {
                       "currency": "Rs",
                       "amount": 4500,
-                      "display": "Rs 4500",
+                      "display": "Rs 4000",
                       "gstInclusive": true
                     },
                     "specs": {
