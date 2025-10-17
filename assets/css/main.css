@@ -1,3 +1,341 @@
+/* Centered Banner Fix (Clean and Balanced Layout) */
+.hero {
+  display: flex;
+  align-items: center;      /* vertical center */
+  justify-content: center;  /* horizontal center */
+  min-height: 90vh;         /* nearly full screen */
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Keep the carousel responsive & centered */
+.hero-banner-breakout {
+  position: relative;
+  width: 90%;
+  max-width: 1400px;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Adjust for header overlap */
+body.index-page {
+  padding-top: 90px; /* matches header height */
+}
+
+/* Optional: smooth fade-in animation */
+.hero-banner-breakout {
+  animation: fadeInUp 1.2s ease forwards;
+  opacity: 0;
+}
+@keyframes fadeInUp {
+  0% { transform: translateY(40px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+/* ===== Enhanced Banner Aesthetic ===== */
+
+/* Wrap container keeps smooth radius & shadow */
+.hero-banner-breakout {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  border-radius: 28px; /* Soft rounded corners */
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(0,0,0,0.5)); /* optional depth overlay */
+}
+
+/* Carousel images take full radius */
+#heroCarousel .carousel-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 28px;
+  transition: transform 6s ease; /* Slow pan effect */
+}
+
+/* Add subtle zoom animation on slide change */
+#heroCarousel .carousel-item.active > img {
+  transform: scale(1.05);
+}
+
+/* Gentle overlay on top of images */
+#heroCarousel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  pointer-events: none;
+  border-radius: 28px;
+}
+
+/* Caption area refinement */
+#heroCarousel .carousel-caption {
+  z-index: 3;
+  left: 6%;
+  bottom: 10%;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+  padding: 1.2rem 1.6rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+#heroCarousel .carousel-caption h5 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: #fff;
+}
+
+#heroCarousel .carousel-caption p {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Buttons/controls refinement */
+#heroCarousel .carousel-control-prev-icon,
+#heroCarousel .carousel-control-next-icon {
+  filter: drop-shadow(0 0 8px rgba(0,0,0,0.6));
+}
+
+#heroCarousel .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#heroCarousel .carousel-indicators .active {
+  background-color: #fff;
+}
+
+/* Smooth transition between slides */
+#heroCarousel .carousel-item {
+  transition: opacity 1s ease-in-out, transform 1.2s ease-in-out;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .hero-banner-breakout {
+    border-radius: 16px;
+  }
+  #heroCarousel .carousel-caption {
+    bottom: 6%;
+    padding: 0.8rem 1rem;
+  }
+}
+/* ===== HERO BANNER FIX ===== */
+
+/* Let the banner escape the grid/container and span full viewport */
+.hero-banner-breakout {
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* Remove the old card constraints from the carousel wrapper */
+.agency-carousel-center {
+  max-width: none !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Own the hero space: full-bleed banner height */
+#heroCarousel,
+#heroCarousel .carousel-inner,
+#heroCarousel .carousel-item {
+  height: clamp(420px, 72vh, 760px);
+}
+
+/* Make images actually behave like a banner */
+#heroCarousel .carousel-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 0 !important;
+}
+
+/* Readable caption on top of photos */
+#heroCarousel .carousel-caption {
+  /* left: 5%; */
+  /* right: auto; */
+  /* bottom: 8%; */
+  /* max-width: min(720px, 80vw); */
+  text-align: left;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* Caption typography */
+#heroCarousel .carousel-caption h5 {
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: .25rem;
+}
+#heroCarousel .carousel-caption p {
+  font-size: clamp(.95rem, 2vw, 1.125rem);
+  color: rgba(255,255,255,.9);
+  margin: 0;
+}
+
+/* Controls & indicators spacing */
+#heroCarousel .carousel-control-prev,
+#heroCarousel .carousel-control-next { width: 10%; }
+#heroCarousel .carousel-indicators { margin-bottom: 1.25rem; }
+
+@media (max-width: 576px) {
+  #heroCarousel .carousel-caption { bottom: 6%; padding: .75rem 1rem; }
+  #heroCarousel .carousel-indicators { display: none; }
+}
+
+/* Offset if the fixed header overlaps the top of the banner */
+.header.fixed-top + .main #hero { margin-top: 10px; }
+/* Center the hero banner content and make it visually wider */
+#heroCarousel .carousel-caption {
+  left: 50%;
+  transform: translateX(-50%);
+  right: auto;
+  max-width: min(1100px, 96vw);
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  #heroCarousel .carousel-caption {
+    max-width: 98vw;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+/* ===== HERO BANNER (full-width, full-bleed) ===== */
+
+/* Remove the card constraints if this class wraps your carousel */
+.agency-carousel-center {
+  max-width: none !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Make hero section tight and allow the carousel to own the space */
+.hero.section {
+  padding: 0;
+  min-height: auto;
+}
+
+
+/* Banner height that adapts to screens; tweak clamp as you like */
+#heroCarousel,
+#heroCarousel .carousel-inner,
+#heroCarousel .carousel-item {
+  height: clamp(420px, 72vh, 760px);
+}
+
+/* Ensure images cover the entire banner without distortion */
+#heroCarousel .carousel-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Caption styling: subtle glass + left aligned */
+#heroCarousel .carousel-caption {
+  /* left: 5%;
+  right: auto;
+  bottom: 8%;
+  max-width: min(720px, 80vw);
+  text-align: left; */
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* Caption text sizing */
+#heroCarousel .carousel-caption h5 {
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: .25rem;
+}
+
+#heroCarousel .carousel-caption p {
+  font-size: clamp(.95rem, 2vw, 1.125rem);
+  color: rgba(255,255,255,.9);
+  margin: 0;
+}
+
+/* Controls and indicators visibility & spacing */
+#heroCarousel .carousel-control-prev,
+#heroCarousel .carousel-control-next {
+  width: 10%;
+}
+
+#heroCarousel .carousel-indicators {
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 576px) {
+  #heroCarousel .carousel-caption {
+    bottom: 6%;
+    padding: .75rem 1rem;
+  }
+  #heroCarousel .carousel-indicators {
+    display: none; /* optional: cleaner on tiny screens */
+  }
+}
+/* Make the agency carousel bigger and center it */
+.agency-carousel-center {
+  max-width: 1100px;
+  min-width: 350px;
+  margin: 0 auto 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  border-radius: 24px;
+  background: rgba(27,38,44,0.7);
+  padding: 2rem 1rem;
+}
+
+.agency-carousel-center .carousel-inner img.carousel-img {
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+@media (max-width: 1200px) {
+  .agency-carousel-center {
+    max-width: 98vw;
+    padding: 1rem 0.2rem;
+  }
+  .agency-carousel-center .carousel-inner img.carousel-img {
+    max-height: 320px;
+  }
+}
 /* Index page background styling */
 .index-page {
   background-image: url('');
@@ -968,7 +1306,8 @@ section,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 3rem;
+  align-items: center;
+  /* padding-right: 3rem; */
 }
 
 @media (max-width: 991px) {
